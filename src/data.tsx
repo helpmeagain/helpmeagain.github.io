@@ -1,78 +1,78 @@
 import { nanoid } from 'nanoid';
 import { FaReact } from 'react-icons/fa';
-import { TbBrandCSharp, TbBrandCpp } from 'react-icons/tb'
+import { TbBrandCSharp } from 'react-icons/tb'
 import { BsUnity } from 'react-icons/bs'
-import { BiLogoTypescript, BiLogoJavascript } from 'react-icons/bi'
+import { BiLogoTypescript, BiLogoPython } from 'react-icons/bi'
+import { SiGodotengine } from 'react-icons/si'
 
 export const links = [
-    { id: nanoid(), href: '#home', text: 'home' },
-    { id: nanoid(), href: '#skills', text: 'skills' },
-    { id: nanoid(), href: '#about', text: 'about' },
-    { id: nanoid(), href: '#projects', text: 'projects' },
+    { id: nanoid(), href: '#home', text: 'Início' },
+    { id: nanoid(), href: '#skills', text: 'Habilidades' },
+    { id: nanoid(), href: '#about', text: 'Sobre' },
+    { id: nanoid(), href: '#projects', text: 'Projetos' },
 ];
 
 export const skills = [
     {
         id: nanoid(),
-        title: 'C# and .NET',
+        title: 'C#',
         icon: <TbBrandCSharp className='h-16 w-16 text-violet-200' />,
-        text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
-    },
-    {
-        id: nanoid(),
-        title: 'C++',
-        icon: <TbBrandCpp className='h-16 w-16 text-violet-200' />,
-        text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
-    },
-    {
-        id: nanoid(),
-        title: 'Unity',
-        icon: <BsUnity className='h-16 w-16 text-violet-200' />,
-        text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
-    },
-    {
-        id: nanoid(),
-        title: 'JavaScript',
-        icon: <BiLogoJavascript className='h-16 w-16 text-violet-200 rounded-full' />,
-        text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+        text: 'Proficiente em programação orientada a objeto, com experiência sólida no desenvolvimento de aplicativos desktop e aplicações .NET, oferecendo soluções de software de alto desempenho.',
     },
     {
         id: nanoid(),
         title: 'TypeScript',
         icon: <BiLogoTypescript className='h-16 w-16 text-violet-200' />,
-        text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+        text: 'Especializado na criação de aplicações web escaláveis e eficientes usando TypeScript, Express e Node.js, proporcionando soluções inovadoras e confiáveis.',
+    },
+    {
+        id: nanoid(),
+        title: 'Python',
+        icon: <BiLogoPython className='h-16 w-16 text-violet-200' />,
+        text: 'Experiência em desenvolvimento web utilizando Flask, além de expertise em processamento digital de imagens.',
+    },
+    {
+        id: nanoid(),
+        title: 'Unity',
+        icon: <BsUnity className='h-16 w-16 text-violet-200' />,
+        text: 'Especializado na criação de jogos envolventes com Unity, com ênfase em jogos 2D. Combinando habilidades criativas e técnicas sólidas, transformo conceitos em experiências interativas memoráveis.',
+    },
+    {
+        id: nanoid(),
+        title: 'Godot',
+        icon: <SiGodotengine className='h-16 w-16 text-violet-200' />,
+        text: 'Tenho nada KKKKKKKKK',
     },
     {
         id: nanoid(),
         title: 'React',
         icon: <FaReact className='h-16 w-16 text-violet-200' />,
-        text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+        text: 'Proficiência na construção de interfaces de usuário envolventes e responsivas com React, integrando-as perfeitamente com aplicativos back-end.',
     },
 ];
 
 export const projects = [
     {
         id: nanoid(),
-        img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-        url: 'https://react-projects.netlify.app/',
-        github: 'https://github.com/john-smilga',
-        title: 'first project',
-        text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+        img: 'https://github.com/felipecomarques/veterinary-clinic-api/raw/main/docs/resource/image/swagger.png',
+        github: 'https://github.com/felipecomarques/veterinary-clinic-api',
+        title: 'API de Clínica Veterinária',
+        text: 'Uma API para um clínica veterinária fictícia. Há operações de CRUD como criar, pesquisar, editar e deletar tutores e pets. Também possui autentificação de usuários e utilização do MongoDB',
     },
     {
         id: nanoid(),
-        img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-        url: 'https://react-projects.netlify.app/',
-        github: 'https://github.com/john-smilga',
-        title: 'second project',
-        text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-    },
-    {
-        id: nanoid(),
-        img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: 'https://user-images.githubusercontent.com/57302703/208323181-18cbc4e7-34d6-4f45-86da-f7a00df95e85.gif',
         // url: 'https://react-projects.netlify.app/',
-        github: 'https://github.com/john-smilga',
-        title: 'third project',
-        text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+        github: 'https://github.com/felipecomarques/flappy-bird',
+        title: 'Flappy Bird Clone',
+        text: 'Projeto de um jogo similar a Flappy Bird, com propósito de aprender o básico de Unity. Baseado no projeto do canal Game Maker Toolkit',
+    },
+    {
+        id: nanoid(),
+        img: 'https://user-images.githubusercontent.com/57302703/226485402-c2e93082-bef4-428a-993d-04207be27dd1.gif',
+        // url: 'https://react-projects.netlify.app/',
+        github: 'https://github.com/felipecomarques/delivery-driver',
+        title: 'Delivery Driver',
+        text: 'Projeto desenvolvido no curso de jogos 2D em Unity e C#. Deste modo, foi realizado um jogo simples, com um carro que realizará entregas.',
     },
 ];

@@ -16,13 +16,15 @@ const ProjectsCard = ({ url, img, github, title, text }: ProjectCardProps) => {
                 alt={title}
                 className='w-full object-cover rounded-t-lg h-64'
             />
-            <div className='capitalize p-8'>
+            <div className='p-8'>
                 <h2 className='text-violet-100 text-xl tracking-wide font-medium'>{title}</h2>
-                <p className='mt-4 text-violet-100 leading-loose'>{text}</p>
+                <p className='mt-4 text-violet-100 leading-loose text-justify'>{text}</p>
                 <div className='mt-4 flex gap-x-4'>
-                    <a href={github}><FaGithub className="h-7 w-7 hoover-settings" /></a>
+                    <a href={github} target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="h-7 w-7 hoover-settings" />
+                    </a>
                     {url ? (
-                        <a href={url}>
+                        <a href={url} target="_blank" rel="noopener noreferrer">
                             <TbWorldWww className="h-8 w-8 hoover-settings" />
                         </a>
                     ) : null}

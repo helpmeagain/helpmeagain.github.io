@@ -7,11 +7,11 @@ const Hero = () => {
             <div className="align-element grid grid-cols-2 items-center lg:gap-48">
                 <article>
                     <h1 className="text-6xl font-semibold tracking-wider text-violet-100">
-                        Welcome, I'm Felipe Marques!
+                        Bem-vindo, sou Felipe Marques!
                     </h1>
 
                     <p className="mt-4 text-2xl text-violet-100 capitalize tracking-wide">
-                        Back-End Developer & Game Developer
+                        Back-End Dev & Game Dev
                     </p>
 
                     <div className="flex gap-x-3 mt-4">
