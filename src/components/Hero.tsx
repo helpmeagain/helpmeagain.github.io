@@ -3,7 +3,7 @@ import waifu from '../assets/waifu.jpg'
 
 const Hero = () => {
     return (
-        <div className="bg-violet-700/5 py-24">
+        <section className="bg-violet-700/5 py-24" id="home">
             <div className="align-element grid grid-cols-2 items-center lg:gap-48">
                 <article>
                     <h1 className="text-6xl font-semibold tracking-wider text-violet-100">
@@ -29,7 +29,7 @@ const Hero = () => {
                     <img src={waifu} className="h-80 lg:h-96 rounded-full border-2 border-violet-400/50" />
                 </article>
             </div>
-        </div>
+        </section>
     )
 }
 export default Hero
