@@ -1,9 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-@layer base {
-    body {
-      @apply bg-[#080414]
-    }
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8
+  }
+
+  .hoover-settings {
+    @apply text-violet-200 hover:text-violet-400 duration-500
+  }
 }

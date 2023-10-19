@@ -1,30 +1,51 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
+import { TbBrandCSharp, TbBrandCpp } from 'react-icons/tb'
+import { BsUnity } from 'react-icons/bs'
+import { BiLogoTypescript, BiLogoJavascript } from 'react-icons/bi'
 
 export const links = [
     { id: nanoid(), href: '#home', text: 'home' },
-    { id: nanoid(), href: '#about', text: 'about' },
     { id: nanoid(), href: '#skills', text: 'skills' },
+    { id: nanoid(), href: '#about', text: 'about' },
     { id: nanoid(), href: '#projects', text: 'projects' },
 ];
 
 export const skills = [
     {
         id: nanoid(),
-        title: 'HTML&CSS',
-        icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+        title: 'C# and .NET',
+        icon: <TbBrandCSharp className='h-16 w-16 text-violet-200' />,
         text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
     },
     {
         id: nanoid(),
-        title: 'Javascript',
-        icon: <FaJs className='h-16 w-16 text-emerald-500' />,
+        title: 'C++',
+        icon: <TbBrandCpp className='h-16 w-16 text-violet-200' />,
+        text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    },
+    {
+        id: nanoid(),
+        title: 'Unity',
+        icon: <BsUnity className='h-16 w-16 text-violet-200' />,
+        text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    },
+    {
+        id: nanoid(),
+        title: 'JavaScript',
+        icon: <BiLogoJavascript className='h-16 w-16 text-violet-200 rounded-full' />,
+        text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    },
+    {
+        id: nanoid(),
+        title: 'TypeScript',
+        icon: <BiLogoTypescript className='h-16 w-16 text-violet-200' />,
         text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
     },
     {
         id: nanoid(),
         title: 'React',
-        icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+        icon: <FaReact className='h-16 w-16 text-violet-200' />,
         text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
     },
 ];
