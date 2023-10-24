@@ -2,8 +2,8 @@ import { nanoid } from 'nanoid';
 import { FaReact } from 'react-icons/fa';
 import { TbBrandCSharp } from 'react-icons/tb'
 import { BsUnity } from 'react-icons/bs'
-import { BiLogoTypescript, BiLogoPython } from 'react-icons/bi'
-import { SiGodotengine } from 'react-icons/si'
+import { BiLogoTypescript, BiLogoPython, BiLogoMongodb } from 'react-icons/bi'
+import { SiGodotengine, SiExpress } from 'react-icons/si'
 
 export const links = [
     { id: nanoid(), href: '#home', text: 'Início' },
@@ -57,6 +57,11 @@ export const projects = [
         img: 'https://github.com/felipecomarques/veterinary-clinic-api/raw/main/docs/resource/image/swagger.png',
         github: 'https://github.com/felipecomarques/veterinary-clinic-api',
         title: 'API de Clínica Veterinária',
+        icons: [
+            <BiLogoTypescript className='h-8 w-8' />,
+            <SiExpress className='h-8 w-8' />,
+            <BiLogoMongodb className='h-8 w-8' />
+        ],
         text: 'Uma API para um clínica veterinária fictícia. Há operações de CRUD como criar, pesquisar, editar e deletar tutores e pets. Também possui autentificação de usuários e utilização do MongoDB',
     },
     {
@@ -65,6 +70,10 @@ export const projects = [
         // url: 'https://react-projects.netlify.app/',
         github: 'https://github.com/felipecomarques/flappy-bird',
         title: 'Flappy Bird Clone',
+        icons: [
+            <TbBrandCSharp className='h-9 w-9' />,
+            <BsUnity className='h-8 w-8' />
+        ],
         text: 'Projeto de um jogo similar a Flappy Bird, com propósito de aprender o básico de Unity. Baseado no projeto do canal Game Maker Toolkit',
     },
     {
@@ -73,6 +82,10 @@ export const projects = [
         // url: 'https://react-projects.netlify.app/',
         github: 'https://github.com/felipecomarques/delivery-driver',
         title: 'Delivery Driver',
+        icons: [
+            <TbBrandCSharp className='h-9 w-9' />,
+            <BsUnity className='h-8 w-8' />
+        ],
         text: 'Projeto desenvolvido no curso de jogos 2D em Unity e C#. Deste modo, foi realizado um jogo simples, com um carro que realizará entregas.',
     },
 ];
