@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <div className="h-16"></div>
+      {/* <div className="h-16"></div> */}
       <Hero />
       <Skills />
       <About />

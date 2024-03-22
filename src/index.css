@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,4 +12,25 @@
   .hoover-settings {
     @apply text-violet-200 hover:text-violet-400 duration-500
   }
+
+  .navbar-style {
+    @apply bg-violet-700/10 border-violet-400/30 border rounded-3xl backdrop-blur-md select-none shadow-md p-8 pr-4
+  }
+
+  .navbar-settings {
+    @apply flex justify-between w-[97%] h-20 fixed top-4 left-1/2 -translate-x-1/2 z-50
+  }
+}
+
+.fira-mono-bold {
+  font-family: "Fira Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jost-semi-bold {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 520;
+  font-style: normal;
 }

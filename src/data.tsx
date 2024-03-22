@@ -1,15 +1,19 @@
 import { nanoid } from 'nanoid';
 import { FaReact } from 'react-icons/fa';
+import { HiCodeBracketSquare } from "react-icons/hi2";
+import { IoPerson } from "react-icons/io5";
+import { PiDesktopTowerFill } from "react-icons/pi";
+import { RiHome2Fill } from "react-icons/ri";
 import { TbBrandCSharp } from 'react-icons/tb'
 import { BsUnity } from 'react-icons/bs'
-import { BiLogoTypescript, BiLogoJavascript, BiLogoPython, BiLogoMongodb, BiLogoReact } from 'react-icons/bi'
+import { BiLogoTypescript, BiLogoJavascript, BiLogoPython, BiLogoMongodb, BiLogoReact, BiLogoTailwindCss } from 'react-icons/bi'
 import { SiGodotengine, SiExpress } from 'react-icons/si'
 
 export const links = [
-    { id: nanoid(), href: '#home', text: 'Início' },
-    { id: nanoid(), href: '#skills', text: 'Habilidades' },
-    { id: nanoid(), href: '#about', text: 'Sobre' },
-    { id: nanoid(), href: '#projects', text: 'Projetos' },
+    { id: nanoid(), icon: <RiHome2Fill className="h-6 w-6" />, href: '#home', text: 'Início' },
+    { id: nanoid(), icon: <HiCodeBracketSquare className="h-6 w-6" />, href: '#skills', text: 'Habilidades' },
+    { id: nanoid(), icon: <IoPerson className="h-6 w-6" />, href: '#about', text: 'Sobre' },
+    { id: nanoid(), icon: <PiDesktopTowerFill className="h-6 w-6" />, href: '#projects', text: 'Projetos' },
 ];
 
 export const skills = [
@@ -72,7 +76,8 @@ export const projects = [
         title: 'Ward.GG',
         icons: [
             <BiLogoJavascript className='h-8 w-8 rounded-full' />,
-            <BiLogoReact className='h-8 w-8' />
+            <BiLogoReact className='h-8 w-8' />,
+            <BiLogoTailwindCss className='h-8 w-8' />
         ],
         text: 'Plataforma que exibirá o histórico e estatísticas de partidas do League of Legends, se utilizando da API da Riot Games. ',
     },
