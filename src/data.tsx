@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 import { FaReact } from 'react-icons/fa';
 import { TbBrandCSharp } from 'react-icons/tb'
 import { BsUnity } from 'react-icons/bs'
-import { BiLogoTypescript, BiLogoPython, BiLogoMongodb } from 'react-icons/bi'
+import { BiLogoTypescript, BiLogoJavascript, BiLogoPython, BiLogoMongodb, BiLogoReact } from 'react-icons/bi'
 import { SiGodotengine, SiExpress } from 'react-icons/si'
 
 export const links = [
@@ -21,8 +21,8 @@ export const skills = [
     },
     {
         id: nanoid(),
-        title: 'TypeScript',
-        icon: <BiLogoTypescript className='h-16 w-16 text-violet-200' />,
+        title: 'JavaScript & TypeScript',
+        icon: <div className='flex'><BiLogoJavascript className='h-16 w-16 text-violet-200 rounded-full' /><BiLogoTypescript className='h-16 w-16 text-violet-200' /></div>,
         text: 'Especializado na criação de aplicações web escaláveis e eficientes usando TypeScript, Express e Node.js, proporcionando soluções inovadoras e confiáveis.',
     },
     {
@@ -63,6 +63,18 @@ export const projects = [
             <BiLogoMongodb className='h-8 w-8' />
         ],
         text: 'Uma API para um clínica veterinária fictícia. Há operações de CRUD como criar, pesquisar, editar e deletar tutores e pets. Também possui autentificação de usuários e utilização do MongoDB',
+    },
+    {
+        id: nanoid(),
+        img: 'https://github.com/felipecomarques/ward-gg/raw/main/docs/image.png',
+        // url: 'https://react-projects.netlify.app/',
+        github: 'https://github.com/felipecomarques/ward-gg',
+        title: 'Ward.GG',
+        icons: [
+            <BiLogoJavascript className='h-8 w-8 rounded-full' />,
+            <BiLogoReact className='h-8 w-8' />
+        ],
+        text: 'Plataforma que exibirá o histórico e estatísticas de partidas do League of Legends, se utilizando da API da Riot Games. ',
     },
     {
         id: nanoid(),

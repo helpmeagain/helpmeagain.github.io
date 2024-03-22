@@ -4,7 +4,7 @@ import waifu from '../assets/waifu.jpg'
 const Hero = () => {
     return (
         <section className="bg-violet-700/5 py-24" id="home">
-            <div className="align-element grid grid-cols-2 items-center lg:gap-48">
+            <div className="align-element grid grid-cols-2 items-center lg:gap-48 select-none">
                 <article>
                     <h1 className="text-6xl font-semibold tracking-wider text-violet-100">
                         Bem-vindo, sou Felipe Marques!
