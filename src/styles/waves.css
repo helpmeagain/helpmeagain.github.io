@@ -1,0 +1,19 @@
+.spacer {
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave1 {
+    background-image: url(../assets/stacked-waves-haikei.svg);
+}
+
+.wave2 {
+    background-image: url(../assets/stacked-waves-haikei2.svg);
+}
+
+.wave3 {
+    background-image: url(../assets/stacked-waves-haikei3.svg);
+}
