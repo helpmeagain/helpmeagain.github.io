@@ -1,22 +1,22 @@
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import waifu from '../assets/waifu.jpg'
+// import waifu from '../assets/waifu.jpg'
 
 const Hero = () => {
     return (
         <>
-            <div className="h-28 bg-violet-700/5" />
-            <section className="bg-violet-700/5 py-24" id="home">
-                <div className="align-element grid grid-cols-2 items-center lg:gap-48 select-none">
+            <section className="bg-violet-700/5 h-screen py-60" id="home">
+                <div className="flex items-center justify-start max-[870px]:justify-center ml-7 select-none">
                     <article>
-                        <h1 className="text-6xl font-semibold tracking-wider text-violet-100">
-                            Bem-vindo, sou Felipe Marques!
+                        <h1 className="text-5xl min-[600px]:text-6xl font-semibold text-violet-100">
+                            Welcome, I'm <br className='min-[870px]:hidden' />Felipe Marques!
                         </h1>
 
-                        <p className="mt-4 text-2xl text-violet-100 capitalize tracking-wide">
-                            Back-End Dev & Game Dev
-                        </p>
+                        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Mono&size=25&duration=3000&pause=5000&color=EDE9FE&random=false&width=435&lines=Backend+dev+%26+game+dev"
+                            alt="Typing SVG"
+                            className='mt-4'
+                        />
 
-                        <div className="flex gap-x-3 mt-4">
+                        <div className="flex gap-x-3 ">
                             <a href="https://github.com/felipecomarques" target="_blank" rel="noopener noreferrer">
                                 <FaGithubSquare className="h-8 w-8 hoover-settings" />
                             </a>
@@ -26,9 +26,6 @@ const Hero = () => {
                             </a>
                         </div>
 
-                    </article>
-                    <article className="hidden md:block">
-                        <img src={waifu} className="h-80 lg:h-96 rounded-full border-2 border-violet-400/50" />
                     </article>
                 </div>
             </section>
