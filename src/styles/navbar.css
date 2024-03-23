@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbar-style {
+        @apply bg-violet-700/10 border-violet-400/30 border rounded-3xl backdrop-blur-md select-none shadow-md p-8 pr-4;
+    }
+
+    .navbar-settings {
+        @apply flex justify-between w-[97%] h-20 fixed top-4 left-1/2 -translate-x-1/2 z-40;
+    }
+
+    .navbar-buttons-style {
+        @apply border border-violet-400/30 hover:bg-violet-500/10 text-violet-200 hover:text-violet-400 duration-500 shadow-md rounded-xl flex items-center justify-center gap-1;
+    }
+
+    .navbar-list {
+        @apply grid-cols-6 gap-3 list-none items-center text-center justify-end flex flex-row gap-x-3;
+    }
+
+    .navbar-links {
+        @apply navbar-buttons-style p-2 px-3 capitalize text-lg;
+    }
+
+    .navbar-menu-mobile {
+        @apply hidden h-11 w-11 navbar-buttons-style cursor-pointer text-2xl p-1;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar-settings {
+        @apply z-50;
+    }
+
+    .navbar-list {
+        @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 transition-all duration-300 ease-in-out;
+    }
+
+    .navbar-list.active {
+        @apply left-0;
+    }
+
+    .navbar-links {
+        @apply border-none shadow-none w-full;
+    }
+
+    .navbar-menu-mobile {
+        @apply flex;
+    }
+}

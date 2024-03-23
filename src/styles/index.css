@@ -12,14 +12,6 @@
   .hoover-settings {
     @apply text-violet-200 hover:text-violet-400 duration-500
   }
-
-  .navbar-style {
-    @apply bg-violet-700/10 border-violet-400/30 border rounded-3xl backdrop-blur-md select-none shadow-md p-8 pr-4
-  }
-
-  .navbar-settings {
-    @apply flex justify-between w-[97%] h-20 fixed top-4 left-1/2 -translate-x-1/2 z-50
-  }
 }
 
 .fira-mono-bold {
