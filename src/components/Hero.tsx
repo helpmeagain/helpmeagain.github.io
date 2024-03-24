@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <>
             <section className="bg-violet-700/5 h-screen py-60" id="home">
-                <div className="flex items-center justify-start max-[870px]:justify-center ml-7 select-none">
+                <div className="flex items-center justify-start max-[900px]:justify-center ml-7 select-none">
                     <article>
                         <h1 className="text-5xl min-[600px]:text-6xl font-semibold text-violet-100">
-                            Welcome, I'm <br className='min-[870px]:hidden' />Felipe Marques!
+                            Welcome, I'm <br className='min-[900px]:hidden' />Felipe Marques!
                         </h1>
 
                         <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Mono&size=25&duration=3000&pause=5000&color=EDE9FE&random=false&width=435&lines=Backend+dev+%26+game+dev"
