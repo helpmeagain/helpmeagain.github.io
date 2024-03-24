@@ -4,10 +4,10 @@ import { HiCodeBracketSquare } from "react-icons/hi2";
 import { IoPerson } from "react-icons/io5";
 import { PiDesktopTowerFill } from "react-icons/pi";
 import { RiHome2Fill } from "react-icons/ri";
-import { TbBrandCSharp } from 'react-icons/tb'
+import { TbBrandCSharp, TbBrandCpp } from 'react-icons/tb'
 import { BsUnity } from 'react-icons/bs'
 import { BiLogoTypescript, BiLogoJavascript, BiLogoPython, BiLogoMongodb, BiLogoReact, BiLogoTailwindCss } from 'react-icons/bi'
-import { SiGodotengine, SiExpress } from 'react-icons/si'
+import { SiExpress, SiDotnet } from 'react-icons/si'
 
 export const links = [
     { id: nanoid(), icon: <RiHome2Fill className="h-6 w-6" />, href: '#home', text: 'Início' },
@@ -19,39 +19,39 @@ export const links = [
 export const skills = [
     {
         id: nanoid(),
-        title: 'C#',
-        icon: <TbBrandCSharp className='h-16 w-16 text-violet-200' />,
-        text: 'Proficiente em programação orientada a objeto, com experiência sólida no desenvolvimento de aplicativos desktop e aplicações .NET, oferecendo soluções de software de alto desempenho.',
+        title: 'JavaScript & TypeScript',
+        icon: <div className='flex'><BiLogoJavascript className='h-16 w-16 text-yellow-200 rounded-full' /><BiLogoTypescript className='h-16 w-16 text-blue-300' /></div>,
+        text: 'Lorem',
     },
     {
         id: nanoid(),
-        title: 'JavaScript & TypeScript',
-        icon: <div className='flex'><BiLogoJavascript className='h-16 w-16 text-violet-200 rounded-full' /><BiLogoTypescript className='h-16 w-16 text-violet-200' /></div>,
-        text: 'Especializado na criação de aplicações web escaláveis e eficientes usando TypeScript, Express e Node.js, proporcionando soluções inovadoras e confiáveis.',
+        title: 'C# & .NET',
+        icon: <div className='flex items-center gap-2 h-16'><TbBrandCSharp className='h-16 w-16 text-purple-300 ' /><SiDotnet className='h-24 w-24 text-purple-300 overflow-hidden' /></div>,
+        text: 'Lorem',
+    },
+    {
+        id: nanoid(),
+        title: 'C++',
+        icon: <TbBrandCpp className='h-16 w-16 text-blue-300' />,
+        text: 'Lorem',
     },
     {
         id: nanoid(),
         title: 'Python',
-        icon: <BiLogoPython className='h-16 w-16 text-violet-200' />,
-        text: 'Experiência em desenvolvimento web utilizando Flask, além de expertise em processamento digital de imagens.',
+        icon: <BiLogoPython className='h-16 w-16 text-blue-300' />,
+        text: 'Lorem',
     },
     {
         id: nanoid(),
         title: 'Unity',
-        icon: <BsUnity className='h-16 w-16 text-violet-200' />,
-        text: 'Especializado na criação de jogos envolventes com Unity, com ênfase em jogos 2D. Combinando habilidades criativas e técnicas sólidas, transformo conceitos em experiências interativas memoráveis.',
-    },
-    {
-        id: nanoid(),
-        title: 'Godot',
-        icon: <SiGodotengine className='h-16 w-16 text-violet-200' />,
-        text: 'Tenho nada KKKKKKKKK',
+        icon: <BsUnity className='h-16 w-16 text-slate-400' />,
+        text: 'Lorem',
     },
     {
         id: nanoid(),
         title: 'React',
-        icon: <FaReact className='h-16 w-16 text-violet-200' />,
-        text: 'Proficiência na construção de interfaces de usuário envolventes e responsivas com React, integrando-as perfeitamente com aplicativos back-end.',
+        icon: <FaReact className='h-16 w-16 text-blue-300' />,
+        text: 'Lorem',
     },
 ];
 
@@ -66,7 +66,7 @@ export const projects = [
             <SiExpress className='h-8 w-8' />,
             <BiLogoMongodb className='h-8 w-8' />
         ],
-        text: 'Uma API para um clínica veterinária fictícia. Há operações de CRUD como criar, pesquisar, editar e deletar tutores e pets. Também possui autentificação de usuários e utilização do MongoDB',
+        text: 'Lorem',
     },
     {
         id: nanoid(),
@@ -79,7 +79,7 @@ export const projects = [
             <BiLogoReact className='h-8 w-8' />,
             <BiLogoTailwindCss className='h-8 w-8' />
         ],
-        text: 'Plataforma que exibirá o histórico e estatísticas de partidas do League of Legends, se utilizando da API da Riot Games. ',
+        text: 'Lorem',
     },
     {
         id: nanoid(),
@@ -91,7 +91,7 @@ export const projects = [
             <TbBrandCSharp className='h-9 w-9' />,
             <BsUnity className='h-8 w-8' />
         ],
-        text: 'Projeto de um jogo similar a Flappy Bird, com propósito de aprender o básico de Unity. Baseado no projeto do canal Game Maker Toolkit',
+        text: 'Lorem',
     },
     {
         id: nanoid(),
@@ -103,6 +103,6 @@ export const projects = [
             <TbBrandCSharp className='h-9 w-9' />,
             <BsUnity className='h-8 w-8' />
         ],
-        text: 'Projeto desenvolvido no curso de jogos 2D em Unity e C#. Deste modo, foi realizado um jogo simples, com um carro que realizará entregas.',
+        text: 'Lorem',
     },
 ];
