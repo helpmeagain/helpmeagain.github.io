@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { links } from '../data';
+import LinksData from '../assets/data/LinksData';
 import { FiMenu, FiX } from "react-icons/fi";
 import { MdTranslate } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
@@ -29,7 +29,7 @@ const Navbar = () => {
                     &lt;<span className="text-violet-500">Felipe Marques</span>/&gt;
                 </h2>
                 <ul className={isMenuOpen ? "navbar-list active" : "navbar-list"}>
-                    {links.map((link, id) => (
+                    {LinksData().map((link, id) => (
                         <li key={id}>
                             <a href={link.href} className="jost-semi-bold navbar-links" onClick={closeMenu}>
                                 {link.icon} {link.text}

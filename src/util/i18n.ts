@@ -1,6 +1,6 @@
 import { initReactI18next } from "react-i18next";
-import global_en from './assets/translations/en/global.json';
-import global_pt from './assets/translations/pt/global.json';
+import global_en from '../assets/translations/en/global.json';
+import global_pt from '../assets/translations/pt/global.json';
 import i18n from 'i18next';
 
 // the translations

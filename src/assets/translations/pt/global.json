@@ -1,5 +1,45 @@
 {
+    "navbar": {
+        "home": "Início",
+        "skills": "Habilidades",
+        "about": "Sobre mim",
+        "projects": "Projetos"
+    },
     "hero": {
         "welcome": "Boas-vindas! Eu sou"
+    },
+    "titles": {
+        "skills": "Habilidades Técnicas",
+        "about": "Sobre mim",
+        "projects": "Projetos"
+    },
+    "skills": {
+        "js": "JavaScript - pt",
+        "cs": "C# - pt",
+        "cpp": "C++ - pt",
+        "py": "Python - pt",
+        "unity": "Unity - pt",
+        "react": "React - pt"
+    },
+    "about": {
+        "text": "Sou um desenvolvedor de software, etc..."
+    },
+    "projects": {
+        "vet": {
+            "name": "API de clínica veterinária",
+            "description": "Sistema de gerenciamento de clínica veterinária"
+        },
+        "ward": {
+            "name": "Ward.GG",
+            "description": "Site para monitorar partidas de League of Legends"
+        },
+        "flap": {
+            "name": "Flappy Bird Clone",
+            "description": "Clone do jogo Flappy Bird"
+        },
+        "deli": {
+            "name": "Delivery Drive",
+            "description": "Jogo de carro"
+        }
     }
 }

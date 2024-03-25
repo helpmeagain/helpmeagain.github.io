@@ -1,5 +1,45 @@
 {
+    "navbar": {
+        "home": "Home",
+        "skills": "skills",
+        "projects": "Projects",
+        "about": "About me"
+    },
     "hero": {
         "welcome": "Welcome! I'm"
+    },
+    "titles": {
+        "skills": "Technical skills",
+        "about": "About me",
+        "projects": "projects"
+    },
+    "skills": {
+        "js": "JavaScript - en",
+        "cs": "C# - en",
+        "cpp": "C++ - en",
+        "py": "Python - en",
+        "unity": "Unity - en",
+        "react": "React - en"
+    },
+    "about": {
+        "text": "I'm a software developer, etc..."
+    },
+    "projects": {
+        "vet": {
+            "name": "Veterinary Clinic API",
+            "description": "Veterinary Clinic Management System"
+        },
+        "ward": {
+            "name": "Ward.GG",
+            "description": "Website to monitor League of Legends matches"
+        },
+        "flap": {
+            "name": "Flappy Bird Clone",
+            "description": "Flappy Bird game clone"
+        },
+        "deli": {
+            "name": "Delivery Drive",
+            "description": "Car game"
+        }
     }
 }
