@@ -4,7 +4,7 @@
 
 @layer components {
     .navbar-style {
-        @apply bg-violet-700/10 border-violet-400/30 border rounded-3xl backdrop-blur-md select-none shadow-md p-8 pr-5;
+        @apply bg-violet-700/10 border-violet-400/30 border rounded-3xl select-none shadow-md p-8 pr-5;
     }
 
     .navbar-settings {
@@ -42,7 +42,7 @@
     }
 
     .navbar-list {
-        @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 transition-all duration-300 ease-in-out;
+        @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out;
     }
 
     .navbar-list.active {

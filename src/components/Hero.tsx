@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <>
             <section className="bg-gradient-to-t from-violet-700/5 via-violet-700/25 to-violet-700/5 h-screen" id="home">
-                <div className="flex items-center justify-start max-[900px]:justify-center ml-6 select-none">
+                <div className="flex items-center justify-start max-[900px]:justify-center ml-4 md:ml-6 select-none">
                     <article className='h-screen flex flex-col justify-center'>
                         <h1 className="text-4xl min-[600px]:text-6xl font-semibold text-violet-200">
                             {t('hero.welcome')} <br className='min-[900px]:hidden' />Felipe Marques!

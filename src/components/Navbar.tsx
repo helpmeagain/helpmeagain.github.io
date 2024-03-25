@@ -23,7 +23,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar-style navbar-settings">
+        <nav className={isMenuOpen ? "navbar-style navbar-settings" : "navbar-style navbar-settings backdrop-blur-md"}>
             <div className='flex'>
                 <h2 className='fira-mono-bold flex items-center text-2xl max-sm:text-lg font-mono font-bold whitespace-nowrap text-violet-100'>
                     &lt;<span className="text-violet-500">Felipe Marques</span>/&gt;
