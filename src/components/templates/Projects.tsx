@@ -1,9 +1,9 @@
-import ProjectsCard from "./ProjectsCard"
-import SectionTitle from "./SectionTitle"
-import ProjectsData from "../assets/data/ProjectsData";
+import ProjectsCard from "../organisms/ProjectsCard"
+import SectionTitle from "../atoms/SectionTitle"
+import ProjectsData from "../../assets/data/ProjectsData";
 import { useTranslation } from 'react-i18next';
 
-const Projects = () => {
+function Projects() {
     const { t } = useTranslation();
 
     return (

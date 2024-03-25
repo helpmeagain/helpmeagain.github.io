@@ -31,7 +31,7 @@
         @apply navbar-button hidden
     }
 
-    .div-hamburger {
+    .hamburger-button {
         @apply hidden
     }
 }
@@ -57,7 +57,7 @@
         @apply flex;
     }
 
-    .div-hamburger {
+    .hamburger-button {
         @apply flex;
     }
 }

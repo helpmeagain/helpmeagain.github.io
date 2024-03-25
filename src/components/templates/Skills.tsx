@@ -1,9 +1,9 @@
-import SkillsData from "../assets/data/SkillsData";
-import SectionTitle from "./SectionTitle"
-import SkillsCard from "./SkillsCard"
+import SectionTitle from "../atoms/SectionTitle"
+import SkillsData from "../../assets/data/SkillsData";
+import SkillsCard from "../organisms/SkillsCard"
 import { useTranslation } from 'react-i18next';
 
-const Skills = () => {
+function Skills() {
     const { t } = useTranslation();
 
     return (
