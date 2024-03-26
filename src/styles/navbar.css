@@ -4,11 +4,16 @@
 
 @layer components {
     .navbar-style {
-        @apply bg-violet-700/10 border-violet-400/30 border rounded-3xl select-none shadow-md p-8 pr-5;
+        @apply bg-violet-700/10 before:border-violet-400/30 before:border rounded-3xl select-none shadow-md p-8 pr-5 before:backdrop-blur-md before:backdrop-hack;
     }
 
     .navbar-settings {
         @apply flex justify-between w-[97%] h-20 fixed top-4 left-1/2 -translate-x-1/2 z-40;
+    }
+
+    /* https://stackoverflow.com/questions/60997948/backdrop-filter-not-working-for-nested-elements-in-chrome */
+    .backdrop-hack {
+        @apply absolute inset-0 -z-10 rounded-3xl;
     }
 
     .navbar-buttons-style {
@@ -20,7 +25,7 @@
     }
 
     .language-list {
-        @apply flex flex-col absolute list-none items-center text-center border-violet-400/30 border bg-[#1E0C40] backdrop-blur-md rounded-xl py-2 px-2 gap-2 h-auto top-[85px] end-3;
+        @apply flex flex-col absolute list-none items-center text-center border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-xl py-2 px-2 gap-2 h-auto top-[85px] end-3;
     }
 
     .language-buttons {
@@ -49,9 +54,8 @@
         @apply z-50;
     }
 
-    /* @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out; */
     .navbar-list {
-        @apply flex flex-col justify-start border-violet-400/30 border bg-[#1E0C40] rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out;
+        @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-xl rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 transition-all duration-300 ease-in-out;
     }
 
     .navbar-list.active {
@@ -71,7 +75,7 @@
     }
 
     .language-list {
-        @apply flex flex-col justify-start border-violet-400/30 border backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out;
+        @apply flex flex-col justify-start border-violet-400/30 border backdrop-blur-xl rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 transition-all duration-300 ease-in-out;
     }
 
     .language-list.active {

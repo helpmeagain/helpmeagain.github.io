@@ -24,7 +24,8 @@ function Navbar() {
 
     // Menu language functions
     const changeLanguage = (lang: string) => {
-        lang === 'en' ? i18n.changeLanguage('en') : i18n.changeLanguage('pt');
+        i18n.changeLanguage(lang)
+        document.documentElement.setAttribute('lang', lang)
     };
 
     const toggleLanguage = () => {
@@ -38,7 +39,7 @@ function Navbar() {
     }
 
     return (
-        <nav className={isMenuOpen ? "navbar-style navbar-settings" : "navbar-style navbar-settings backdrop-blur-md"}>
+        <nav className="navbar-style navbar-settings">
             <div className='flex'>
                 <Logo name={"Felipe Marques"} />
                 <NavigationList isMenuOpen={isMenuOpen} clickLink={clickLink} />
