@@ -21,12 +21,19 @@
   font-style: normal;
 }
 
+.fira-mono-regular {
+  font-family: "Fira Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .jost-semi-bold {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 520;
   font-style: normal;
 }
+
 
 .atkinson-hyperlegible-regular {
   font-family: "Atkinson Hyperlegible", sans-serif;

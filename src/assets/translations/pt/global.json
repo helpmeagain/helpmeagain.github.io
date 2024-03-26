@@ -6,7 +6,8 @@
         "projects": "Projetos"
     },
     "hero": {
-        "welcome": "Boas-vindas! Eu sou"
+        "welcome": "Boas-vindas! Eu sou",
+        "intro": "Sou um"
     },
     "titles": {
         "skills": "Habilidades Técnicas",

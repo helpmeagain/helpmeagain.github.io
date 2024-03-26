@@ -6,7 +6,8 @@
         "about": "About me"
     },
     "hero": {
-        "welcome": "Welcome! I'm"
+        "welcome": "Welcome! I'm",
+        "intro": "I'm a"
     },
     "titles": {
         "skills": "Technical skills",
