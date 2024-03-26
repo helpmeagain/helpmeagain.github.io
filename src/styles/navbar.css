@@ -19,6 +19,14 @@
         @apply grid-cols-6 ml-4 gap-3 list-none items-center text-center justify-end flex flex-row gap-x-3;
     }
 
+    .language-list {
+        @apply flex flex-col absolute list-none items-center text-center border-violet-400/30 border bg-[#1E0C40] backdrop-blur-md rounded-xl py-2 px-2 gap-2 h-auto top-[85px] end-3;
+    }
+
+    .language-buttons {
+        @apply navbar-buttons-style flex shadow-none w-24 h-14 text-lg
+    }
+
     .navbar-links {
         @apply navbar-buttons-style p-2 px-3 capitalize text-lg;
     }
@@ -41,8 +49,9 @@
         @apply z-50;
     }
 
+    /* @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out; */
     .navbar-list {
-        @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out;
+        @apply flex flex-col justify-start border-violet-400/30 border bg-[#1E0C40] rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out;
     }
 
     .navbar-list.active {
@@ -59,5 +68,17 @@
 
     .hamburger-button {
         @apply flex;
+    }
+
+    .language-list {
+        @apply flex flex-col justify-start border-violet-400/30 border backdrop-blur-md rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 ease-in-out;
+    }
+
+    .language-list.active {
+        @apply left-0;
+    }
+
+    .language-buttons {
+        @apply border-none shadow-none w-full;
     }
 }

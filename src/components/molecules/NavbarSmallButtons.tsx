@@ -3,15 +3,15 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { MdTranslate } from "react-icons/md";
 
 type Props = {
-    changeLanguage: () => void;
+    toggleLanguage: () => void;
     toggleMenu: () => void;
     isMenuOpen: boolean;
 };
 
-function NavbarSmallButtons({ changeLanguage, toggleMenu, isMenuOpen }: Props) {
+function NavbarSmallButtons({ toggleLanguage, toggleMenu, isMenuOpen }: Props) {
     return (
         <div className='flex gap-2'>
-            <SmallButton onClick={changeLanguage} icon={MdTranslate} />
+            <SmallButton onClick={toggleLanguage} icon={MdTranslate} />
             <div className='hamburger-button'>
                 <SmallButton onClick={toggleMenu} icon={isMenuOpen ? FiX : FiMenu} />
             </div>
