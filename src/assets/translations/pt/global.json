@@ -2,11 +2,11 @@
     "navbar": {
         "home": "Início",
         "skills": "Habilidades",
-        "about": "Sobre mim",
+        "about": "Sobre",
         "projects": "Projetos"
     },
     "hero": {
-        "welcome": "Boas-vindas! Eu sou",
+        "welcome": "Boas-vindas! Sou",
         "intro": "Sou um"
     },
     "titles": {

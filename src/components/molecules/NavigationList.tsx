@@ -11,7 +11,8 @@ function NavigationList({ isMenuOpen, clickLink }: Props) {
         <ul className={isMenuOpen ? "navbar-list active" : "navbar-list"}>
             {LinksData().map((link, id) => (
                 <li key={id}>
-                    <NavigationButton onClick={() => clickLink(link.href)} icon={link.icon} text={link.text} />
+                    <NavigationButton onClick={() => clickLink(link.href)} text={link.text} />
+                    {/* <NavigationButton onClick={() => clickLink(link.href)} icon={link.icon} text={link.text} /> */}
                 </li>
             ))}
         </ul>

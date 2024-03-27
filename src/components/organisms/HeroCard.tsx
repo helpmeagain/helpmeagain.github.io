@@ -6,9 +6,9 @@ import Typewriter from '../atoms/Typewriter';
 function HeroCard({ name }: { name: string }) {
     const { t } = useTranslation();
     return (
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4 items-center'>
             <WelcomeMessage message={t('hero.welcome')} name={name} />
-            <Typewriter intro={t('hero.intro')} phrases={["backend developer", "frontend developer", "game developer"]} />
+            <Typewriter phrases={["backend developer", "frontend developer", "game developer"]} />
             <SocialMedia />
         </div>
     )
