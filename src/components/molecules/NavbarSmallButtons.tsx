@@ -10,7 +10,7 @@ type Props = {
 
 function NavbarSmallButtons({ toggleLanguage, toggleMenu, isMenuOpen }: Props) {
     return (
-        <div className='flex gap-2'>
+        <div className='flex gap-2 mr-3 max-sm:mr-0'>
             <SmallButton onClick={toggleLanguage} icon={MdTranslate} />
             <div className='hamburger-button'>
                 <SmallButton onClick={toggleMenu} icon={isMenuOpen ? FiX : FiMenu} />

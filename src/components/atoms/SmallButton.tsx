@@ -8,7 +8,7 @@ type Props = {
 function SmallButton({ onClick, icon: Icon }: Props) {
     return (
         <div className="flex items-center justify-center">
-            <button className="navbar-button ml-2" onClick={onClick}>
+            <button className="small-button" onClick={onClick}>
                 <Icon className="md:ml-1" />
             </button>
         </div>

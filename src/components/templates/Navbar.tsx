@@ -39,7 +39,7 @@ function Navbar() {
     }
 
     return (
-        <nav className="navbar-style navbar-settings">
+        <nav className="navbar">
             <div className='flex'>
                 <Logo name={"Felipe Marques"} />
                 <NavigationList isMenuOpen={isMenuOpen} clickLink={clickLink} />

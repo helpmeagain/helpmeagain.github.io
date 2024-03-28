@@ -6,7 +6,7 @@ type Props = {
 
 function NavigationButton({ onClick, icon, text }: Props) {
     return (
-        <button className="jost-semi-bold navbar-links" onClick={onClick}>
+        <button className="navigation-buttons jost-semi-bold" onClick={onClick}>
             {icon} {text}
         </button>
     );

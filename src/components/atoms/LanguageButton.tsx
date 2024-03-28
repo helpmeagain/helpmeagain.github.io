@@ -5,7 +5,7 @@ type Props = {
 
 function LanguageButton({ onClick, text }: Props) {
     return (
-        <button className="jost-semi-bold language-buttons h-10" onClick={onClick}>
+        <button className="language-options-buttons jost-semi-bold" onClick={onClick}>
             {text}
         </button>
     );

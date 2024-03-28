@@ -8,7 +8,7 @@ type Props = {
 
 function NavigationList({ isMenuOpen, clickLink }: Props) {
     return (
-        <ul className={isMenuOpen ? "navbar-list active" : "navbar-list"}>
+        <ul className={isMenuOpen ? "navigation-list active" : "navigation-list"}>
             {LinksData().map((link, id) => (
                 <li key={id}>
                     <NavigationButton onClick={() => clickLink(link.href)} text={link.text} />

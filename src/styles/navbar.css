@@ -1,88 +1,175 @@
-@tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 @layer components {
-    .navbar-style {
-        @apply bg-violet-700/10 before:border-violet-400/30 before:border rounded-3xl select-none shadow-md p-8 pr-5 before:backdrop-blur-md before:backdrop-hack;
-    }
 
-    .navbar-settings {
-        @apply flex justify-between w-[97%] h-20 fixed top-4 left-1/2 -translate-x-1/2 z-40;
+    /* NAVBAR */
+    .navbar {
+        /* Style */
+        @apply shadow-md bg-violet-700/10;
+        border-radius: 9999px;
+        user-select: none;
+        padding: 2rem;
+        padding-right: 1.25rem;
+
+        /* Settings (position, size, etc) */
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        width: 70%;
+        height: 5rem;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 50;
     }
 
     /* https://stackoverflow.com/questions/60997948/backdrop-filter-not-working-for-nested-elements-in-chrome */
-    .backdrop-hack {
-        @apply absolute inset-0 -z-10 rounded-3xl;
+    .navbar::before {
+        @apply backdrop-blur-md border-violet-400/15;
+        content: "";
+        border-width: 1px;
+        position: absolute;
+        inset: 0px;
+        z-index: -10;
+        border-radius: 9999px;
     }
 
-    .navbar-buttons-style {
-        @apply border border-violet-400/20 hover:bg-violet-500/10 text-violet-200 hover:text-violet-400 duration-500 shadow-md rounded-xl flex items-center justify-center gap-1;
+    /* BUTTONS */
+    .common-button {
+        @apply text-violet-200 hover:text-violet-400 border-violet-400/10 hover:bg-violet-500/10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        border-width: 1px;
+        transition-duration: 500ms;
+        border-radius: 0.75rem;
+        gap: 0.25rem;
     }
 
-    .navbar-list {
-        @apply grid-cols-6 ml-4 gap-3 list-none items-center text-center justify-end flex flex-row gap-x-3;
+    .navigation-buttons {
+        @apply common-button;
+        padding: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
-    .language-list {
-        @apply flex flex-col absolute list-none items-center text-center border-violet-400/30 border bg-violet-700/10 backdrop-blur-md rounded-xl py-2 px-2 gap-2 h-auto top-[85px] end-3;
+    .small-button {
+        @apply common-button;
+        cursor: pointer;
+        margin-left: 0.2rem;
+        height: 2.75rem;
+        width: 2.75rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0.25rem
     }
 
-    .language-buttons {
-        @apply navbar-buttons-style flex shadow-none w-24 h-14 text-lg
-    }
-
-    .navbar-links {
-        @apply navbar-buttons-style p-2 px-3 capitalize text-lg;
-    }
-
-    .navbar-button {
-        @apply h-11 w-11 navbar-buttons-style cursor-pointer text-2xl p-1;
-    }
-
-    .navbar-button-hamburger {
-        @apply navbar-button hidden
+    .language-options-buttons {
+        @apply common-button;
+        width: 6rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .hamburger-button {
-        @apply hidden
+        display: none;
+    }
+
+    /* LISTS */
+    .navigation-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-end;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        list-style-type: none;
+        margin-left: 1rem;
+        gap: 0.75rem;
+        column-gap: 0.75rem
+    }
+
+    .language-list {
+        @apply bg-violet-700/10 border-violet-400/30 backdrop-blur-xl;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        list-style-type: none;
+        align-items: center;
+        text-align: center;
+        border-width: 1px;
+        border-radius: 0.75rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        gap: 0.5rem;
+        height: auto;
+        top: 85px;
+        inset-inline-end: 0.75rem;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .navbar-settings {
-        @apply z-50;
+
+    .navbar {
+        width: 90%;
     }
 
-    .navbar-list {
-        @apply flex flex-col justify-start border-violet-400/30 border bg-violet-700/10 backdrop-blur-xl rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 transition-all duration-300 ease-in-out;
+    /* BUTTONS */
+    .navigation-buttons {
+        border-style: none;
+        width: 100%;
     }
 
-    .navbar-list.active {
-        @apply left-0;
-    }
-
-    .navbar-links {
-        @apply border-none shadow-none w-full;
-    }
-
-    .navbar-button {
-        @apply flex;
+    .language-options-buttons {
+        @apply navigation-buttons;
     }
 
     .hamburger-button {
-        @apply flex;
+        display: flex;
+    }
+
+    /* LISTS */
+    .navigation-list {
+        @apply bg-violet-700/10 border-violet-400/30 backdrop-blur-xl;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        height: auto;
+        border-width: 1px;
+        border-radius: 1.5rem;
+
+        position: absolute;
+        top: 0px;
+        left: 110%;
+        align-items: stretch;
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin: 0px;
+        z-index: -10;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 300ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .navigation-list.active {
+        left: 0px;
     }
 
     .language-list {
-        @apply flex flex-col justify-start border-violet-400/30 border backdrop-blur-xl rounded-3xl w-full h-auto absolute top-0 left-[110%] items-stretch pt-24 pb-4 px-2 m-0 -z-10 transition-all duration-300 ease-in-out;
+        @apply navigation-list;
     }
 
     .language-list.active {
-        @apply left-0;
-    }
-
-    .language-buttons {
-        @apply border-none shadow-none w-full;
+        left: 0px;
     }
 }
