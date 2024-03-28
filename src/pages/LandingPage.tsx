@@ -2,6 +2,7 @@ import About from "../components/templates/About";
 import Hero from "../components/templates/Hero";
 import Navbar from "../components/templates/Navbar";
 import Projects from "../components/templates/Projects";
+import ContactCard from "../components/organisms/ContactCard";
 
 function LandingPage() {
     return (
@@ -10,6 +11,7 @@ function LandingPage() {
             <Hero />
             <About />
             <Projects />
+            <ContactCard />
         </>
     )
 }

@@ -7,7 +7,7 @@ function ProfileDescription() {
     return (
         <article className='flex flex-col'>
             <SectionTitle text={t('titles.about')} />
-            <p className="text-violet-100 mt-4 atkinson-hyperlegible-regular">
+            <p className="text-violet-100 mt-4 atkinson-hyperlegible-regular text-justify">
                 {t('about.text')}
             </p>
             <div className='flex w-auto justify-center'>

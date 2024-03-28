@@ -6,7 +6,7 @@ type Props = {
 
 function SkillTag({ icon }: Props) {
     return (
-        <li className="flex justify-center items-center border bg-[#080414] border-violet-400/10 rounded-full w-16 h-9">
+        <li className="flex justify-center items-center border bg-inherit border-violet-400/5 rounded-full w-16 h-9">
             {icon}
         </li>
     );

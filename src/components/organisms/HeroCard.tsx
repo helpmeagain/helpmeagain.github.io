@@ -8,7 +8,7 @@ function HeroCard({ name }: { name: string }) {
     return (
         <div className='flex flex-col gap-4 items-center'>
             <WelcomeMessage message={t('hero.welcome')} name={name} />
-            <Typewriter phrases={["backend developer", "frontend developer", "game developer"]} />
+            <Typewriter phrases={["fullstack developer", "game developer"]} />
             <SocialMedia />
         </div>
     )
