@@ -40,7 +40,7 @@ function Navbar() {
 
     return (
         <nav className="navbar">
-            <div className='flex'>
+            <div className='flex gap-3'>
                 <Logo name={"Felipe Marques"} />
                 <NavigationList isMenuOpen={isMenuOpen} clickLink={clickLink} />
             </div>

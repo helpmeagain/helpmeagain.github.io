@@ -2,7 +2,7 @@ import SkillsData from "../../assets/data/SkillsData";
 import SkillTag from '../atoms/SkillTag';
 
 type Props = {
-    title: string
+    title?: string
 }
 
 function SkillCard({ title }: Props) {

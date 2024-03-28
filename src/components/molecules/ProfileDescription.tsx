@@ -11,7 +11,7 @@ function ProfileDescription() {
                 {t('about.text')}
             </p>
             <div className='flex w-auto justify-center'>
-                <SkillCard title='Technologies' />
+                <SkillCard />
             </div>
         </article>
     );

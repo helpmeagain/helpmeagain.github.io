@@ -7,7 +7,7 @@ function Projects() {
     const { t } = useTranslation();
 
     return (
-        <section className="flex flex-col items-center p-20 w-screen bg-gradient-to-t from-violet-700/5 via-violet-950/5 to-violet-700/5" id="projects">
+        <section className="flex flex-col items-center p-20 w-screen" id="projects">
             <SectionTitle text={t('titles.projects')} />
             <div className="py-16 grid md:grid-cols-2 xl:grid-cols-3 gap-8">
                 {

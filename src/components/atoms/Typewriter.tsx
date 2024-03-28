@@ -49,7 +49,7 @@ const TypingAnimation = ({ intro, phrases, speed }: Props) => {
     return (
         <div>
             <h1 className='text-violet-200 text-3xl max-sm:text-xl fira-mono-regular'>
-                {intro} <span className='bg-violet-950/80'>&lt;<span className='text-violet-500'>{currentPhrase}</span>/&gt;</span>
+                {intro} <span className='bg-violet-950/30'>&lt;<span className='text-violet-600'>{currentPhrase}</span>/&gt;</span>
             </h1>
         </div>
     );
