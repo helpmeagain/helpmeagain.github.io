@@ -12,7 +12,7 @@ function ProjectImage({ img, title, icons }: Props) {
             <img
                 src={img}
                 alt={title}
-                className='w-full object-cover rounded-t-lg h-64'
+                className='w-full object-cover rounded-t-2xl h-64'
             />
             <ProjectTechnologies icons={icons} />
         </div>
