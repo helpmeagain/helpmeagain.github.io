@@ -23,24 +23,27 @@
         "react": "React - en"
     },
     "about": {
-        "text": "(en) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc id aliquet ultricies, nisl nunc tincidunt nunc, vel ullamcorper mauris nunc id nunc. Nulla facilisi. Sed euismod, nunc id aliquet ultricies, nisl nunc tincidunt nunc, vel ullamcorper mauris nunc id nunc. Nulla facilisi."
+        "text": "Hello, I'm Felipe Marques! I believe that a good developer is one who has the ability to change when necessary, work as a team and commit to doing what they love. I have a degree in IT technician and a bachelor's degree in information systems from the Federal Institute of Ceará."
     },
     "projects": {
         "vet": {
             "name": "Veterinary Clinic API",
-            "description": "Veterinary Clinic Management System"
+            "description": "CRUD interface that simulates a veterinary clinic system. It allows managing employees and pets, featuring an authentication system with encryption. It employs modern technologies, enabling application security through software testing."
         },
         "ward": {
             "name": "Ward.GG",
-            "description": "Website to monitor League of Legends matches"
+            "description": "Frontend application that monitors the performance of League of Legends players. It utilizes the game's official API to collect data and display statistics, such as matches played, win rate, most played champions, etc."
         },
         "flap": {
             "name": "Flappy Bird Clone",
-            "description": "Flappy Bird game clone"
+            "description": "Flappy Bird clone game, created with the aim of learning Unity and C#. It features a scoring system and a random obstacle generation system. It was developed using the tutorial from the Game Maker Toolkit."
         },
         "deli": {
-            "name": "Delivery Drive",
-            "description": "Car game"
+            "name": "Delivery Driver",
+            "description": "Car game, with the objective of making deliveries in a city. It features collision and physics systems. It was created with the goal of learning Unity and C#."
         }
+    },
+    "contact": {
+        "description": "Let's work together!"
     }
 }

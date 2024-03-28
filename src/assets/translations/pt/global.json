@@ -23,24 +23,27 @@
         "react": "React - pt"
     },
     "about": {
-        "text": "(pt) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc id aliquet ultricies, nisl nunc tincidunt nunc, vel ullamcorper mauris nunc id nunc. Nulla facilisi. Sed euismod, nunc id aliquet ultricies, nisl nunc tincidunt nunc, vel ullamcorper mauris nunc id nunc. Nulla facilisi."
+        "text": "Olá, sou Felipe Marques! Sou especializado em desenvolvimento fullstack e criação de jogos. Acredito que um bom desenvolvedor é aquele que possui a habilidade de mudar quando necessário, trabalhar em equipe e se empenhar em fazer aquilo que ama. Tenho formação em técnico em informática e graduação em sistemas de informação pelo Instituto Federal do Ceará."
     },
     "projects": {
         "vet": {
-            "name": "API de clínica veterinária",
-            "description": "Sistema de gerenciamento de clínica veterinária"
+            "name": "API Clínica veterinária",
+            "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."
         },
         "ward": {
             "name": "Ward.GG",
-            "description": "Site para monitorar partidas de League of Legends"
+            "description": "Aplicação frontend que monitora a performance de jogadores de League of Legends. Utiliza a API oficial do jogo para coletar dados e exibir estatísticas, como partidas jogadas, taxa de vitória, personagens mais jogados, dentre outros."
         },
         "flap": {
             "name": "Flappy Bird Clone",
-            "description": "Clone do jogo Flappy Bird"
+            "description": "Jogo clone de Flappy Bird, feito com objetivo de aprendizado do Unity e C#. Possui um sistema de pontuação e um sistema de geração de obstáculos aleatórios. Foi realizado usando tutorial do Game Maker Toolkit."
         },
         "deli": {
-            "name": "Delivery Drive",
-            "description": "Jogo de carro"
+            "name": "Delivery Driver",
+            "description": "Jogo de carro, com o objetivo de fazer entregas em um cidade. Possui sistemas de colisão e física. Foi feito com objetivo de aprendizado do Unity e C#."
         }
+    },
+    "contact": {
+        "description": "Vamos trabalhar juntos!"
     }
 }
