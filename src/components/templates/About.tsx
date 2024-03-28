@@ -1,11 +1,12 @@
-import AboutCard from '../organisms/AboutCard'
+import AboutCard from '../organisms/AboutCard';
+
 
 function About() {
     return (
-        <section className="bg-violet-700/5 py-20" id="about">
+        <section className="py-20" id="about">
             <AboutCard />
         </section>
-    )
+    );
 }
 
-export default About
+export default About;

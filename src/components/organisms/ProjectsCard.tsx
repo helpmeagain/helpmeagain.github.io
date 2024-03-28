@@ -12,7 +12,7 @@ type ProjectCardProps = {
 
 const ProjectsCard = ({ url, img, github, title, icons, text }: ProjectCardProps) => {
     return (
-        <article className='bg-violet-900/10 rounded-lg duration-300'>
+        <article className='bg-violet-950/20 rounded-lg duration-300'>
             <ProjectImage img={img} title={title} icons={icons} />
             <div className='p-8'>
                 <h2 className='text-violet-100 text-xl tracking-wide font-medium jost-semi-bold'>{title}</h2>
