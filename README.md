@@ -2,7 +2,7 @@
 Checkout my portfolio [here](https://felipecomarques.github.io/)! 
 
 ## 💿 Technologies
-![Technologies](https://skillicons.dev/icons?i=ts,react,tailwind,nodejs,vite)
+![Technologies](https://skillicons.dev/icons?i=ts,react,tailwind,nodejs,vite,githubactions)
 
 ## ⏬ Installation
 To run this project locally, please follow these steps:
