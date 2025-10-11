@@ -27,6 +27,14 @@
     "text": "Hello, I'm Felipe Marques! I specialize in full-stack development and game development. I believe that a good developer is one who has the ability to change when necessary, work as a team and commit to doing what they love. I have a degree in IT technician and a bachelor's degree in information systems from the Federal Institute of Ceará."
   },
   "projects": {
+    "blackwell": {
+      "name": "Blackwell",
+      "description": "API and mobile application developed for generating electronic physiotherapy records, following Domain-Driven Design (DDD) and Clean Architecture principles, with unit, integration, and end-to-end (E2E) testing implemented to ensure scalability, reliability, and ease of maintenance."
+    },
+    "kiwi": {
+      "name": "Project Kiwi",
+      "description": "Multiplayer educational game for English learning, designed to make the process more collaborative and interactive. It examines the impact of synchronous multiplayer gameplay versus single-player mode on students’ language acquisition and motivation."
+    },
     "vet": {
       "name": "Veterinary Clinic API",
       "description": "CRUD interface that simulates a veterinary clinic system. It allows managing employees and pets, featuring an authentication system with encryption. It employs modern technologies, enabling application security through software testing."

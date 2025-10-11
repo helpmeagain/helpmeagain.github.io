@@ -27,6 +27,14 @@
     "text": "Olá, sou Felipe Marques! Sou especializado em desenvolvimento full-stack e criação de jogos. Acredito que um bom desenvolvedor é aquele que possui a habilidade de mudar quando necessário, trabalhar em equipe e se empenhar em fazer aquilo que ama. Tenho formação em técnico em informática e graduação em sistemas de informação pelo Instituto Federal do Ceará."
   },
   "projects": {
+    "blackwell": {
+      "name": "Blackwell",
+      "description": "API e aplicativo mobile desenvolvidos para a geração de prontuários eletrônicos de fisioterapia, seguindo os princípios de Domain-Driven Design (DDD) e Clean Architecture, com a implementação de testes unitários, de integração e end-to-end (E2E), garantindo escalabilidade, confiabilidade e facilidade de manutenção."
+    },
+    "kiwi": {
+      "name": "Project Kiwi",
+      "description": "Jogo educacional multiplayer para o ensino de inglês, projetado para tornar o aprendizado mais colaborativo e interativo. O projeto investiga o impacto do jogo síncrono multiplayer em comparação ao modo individual na aquisição de idioma e na motivação dos alunos."
+    },
     "vet": {
       "name": "API Clínica veterinária",
       "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."
