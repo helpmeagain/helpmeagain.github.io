@@ -27,7 +27,7 @@ const ExperienceList: React.FC = () => {
               className="absolute left-3 sm:left-4 top-1/2 -translate-x-1/2 -translate-y-1/2 inline-block w-4 h-4 rounded-full bg-violet-500 ring-3 ring-violet-500/20"
               aria-hidden="true"
             />
-            <div className="rounded-xl border border-violet-600/30 bg-violet-700/20 dark:bg-zinc-700/30 p-4">
+            <div className="rounded-xl border border-violet-600/30 bg-violet-700/15 dark:bg-zinc-700/30 p-4">
               <div className="mb-2 flex items-center gap-3">
                 <span className="font-bold text-lg text-violet-100">
                   {exp.name}
