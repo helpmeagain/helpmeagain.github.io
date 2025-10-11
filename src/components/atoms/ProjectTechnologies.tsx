@@ -1,10 +1,12 @@
 function ProjectTechnologies({ icons }: { icons: React.ReactNode }) {
-    return (
-        <div className="text-violet-100 absolute bottom-2 right-2 flex gap-x-2
-                bg-violet-950/70 backdrop-blur-sm rounded-full p-2 pl-3 pr-3 border-2 border-violet-400/50">
-            {icons}
-        </div>
-    )
+  return (
+    <div
+      className="text-violet-100 flex w-auto gap-x-2
+                bg-violet-950/60 backdrop-blur-sm rounded-full p-2 px-3 border-2 border-violet-400/20"
+    >
+      {icons}
+    </div>
+  );
 }
 
-export default ProjectTechnologies
+export default ProjectTechnologies;

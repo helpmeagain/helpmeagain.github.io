@@ -29,7 +29,7 @@
   "projects": {
     "blackwell": {
       "name": "Blackwell",
-      "description": "API and mobile application developed for generating electronic physiotherapy records, following Domain-Driven Design (DDD) and Clean Architecture principles, with unit, integration, and end-to-end (E2E) testing implemented to ensure scalability, reliability, and ease of maintenance."
+      "description": "API and mobile application developed for generating electronic physiotherapy records, following Domain-Driven Design (DDD) and Clean Architecture principles, with unit, integration, and end-to-end (E2E) testing implemented to ensure scalability and ease of maintenance."
     },
     "kiwi": {
       "name": "Project Kiwi",

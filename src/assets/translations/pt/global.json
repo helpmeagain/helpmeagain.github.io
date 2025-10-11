@@ -29,7 +29,7 @@
   "projects": {
     "blackwell": {
       "name": "Blackwell",
-      "description": "API e aplicativo mobile desenvolvidos para a geração de prontuários eletrônicos de fisioterapia, seguindo os princípios de Domain-Driven Design (DDD) e Clean Architecture, com a implementação de testes unitários, de integração e end-to-end (E2E), garantindo escalabilidade, confiabilidade e facilidade de manutenção."
+      "description": "API e aplicativo mobile desenvolvidos para a geração de prontuários eletrônicos de fisioterapia, seguindo os princípios de Domain-Driven Design (DDD) e Clean Architecture, com a implementação de testes unitários, de integração e end-to-end (E2E), garantindo escalabilidade e facilidade de manutenção."
     },
     "kiwi": {
       "name": "Project Kiwi",

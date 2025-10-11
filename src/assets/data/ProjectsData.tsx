@@ -23,7 +23,7 @@ const ProjectsData = () => {
       icons: [
         <BiLogoJavascript className="h-8 w-8 rounded-full" />,
         <SiNestjs className="h-7 w-7 " />,
-        <BiLogoReact className="h-8 w-8" />,
+        // <BiLogoReact className="h-8 w-8" />,
         <BiLogoPostgresql className="h-8 w-8" />,
         <SiRedis className="h-8 w-8 " />,
       ],
