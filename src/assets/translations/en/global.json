@@ -1,49 +1,64 @@
 {
-    "navbar": {
-        "home": "Home",
-        "skills": "skills",
-        "projects": "Projects",
-        "about": "About"
+  "navbar": {
+    "home": "Home",
+    "skills": "skills",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "hero": {
+    "welcome": "Welcome! I'm",
+    "intro": "I'm a"
+  },
+  "titles": {
+    "skills": "Technical skills",
+    "about": "About me",
+    "projects": "Projects",
+    "work": "Work Experience"
+  },
+  "skills": {
+    "js": "JavaScript - en",
+    "cs": "C# - en",
+    "cpp": "C++ - en",
+    "py": "Python - en",
+    "unity": "Unity - en",
+    "react": "React - en"
+  },
+  "about": {
+    "text": "Hello, I'm Felipe Marques! I specialize in full-stack development and game development. I believe that a good developer is one who has the ability to change when necessary, work as a team and commit to doing what they love. I have a degree in IT technician and a bachelor's degree in information systems from the Federal Institute of Ceará."
+  },
+  "projects": {
+    "vet": {
+      "name": "Veterinary Clinic API",
+      "description": "CRUD interface that simulates a veterinary clinic system. It allows managing employees and pets, featuring an authentication system with encryption. It employs modern technologies, enabling application security through software testing."
     },
-    "hero": {
-        "welcome": "Welcome! I'm",
-        "intro": "I'm a"
+    "ward": {
+      "name": "Ward.GG",
+      "description": "Frontend application that monitors the performance of League of Legends players. It utilizes the game's official API to collect data and display statistics, such as matches played, win rate, most played champions, etc."
     },
-    "titles": {
-        "skills": "Technical skills",
-        "about": "About me",
-        "projects": "projects"
+    "flap": {
+      "name": "Flappy Bird Clone",
+      "description": "Flappy Bird clone game, created with the aim of learning Unity and C#. It features a scoring system and a random obstacle generation system. It was developed using the tutorial from the Game Maker Toolkit."
     },
-    "skills": {
-        "js": "JavaScript - en",
-        "cs": "C# - en",
-        "cpp": "C++ - en",
-        "py": "Python - en",
-        "unity": "Unity - en",
-        "react": "React - en"
-    },
-    "about": {
-        "text": "Hello, I'm Felipe Marques! I specialize in full-stack development and game development. I believe that a good developer is one who has the ability to change when necessary, work as a team and commit to doing what they love. I have a degree in IT technician and a bachelor's degree in information systems from the Federal Institute of Ceará."
-    },
-    "projects": {
-        "vet": {
-            "name": "Veterinary Clinic API",
-            "description": "CRUD interface that simulates a veterinary clinic system. It allows managing employees and pets, featuring an authentication system with encryption. It employs modern technologies, enabling application security through software testing."
-        },
-        "ward": {
-            "name": "Ward.GG",
-            "description": "Frontend application that monitors the performance of League of Legends players. It utilizes the game's official API to collect data and display statistics, such as matches played, win rate, most played champions, etc."
-        },
-        "flap": {
-            "name": "Flappy Bird Clone",
-            "description": "Flappy Bird clone game, created with the aim of learning Unity and C#. It features a scoring system and a random obstacle generation system. It was developed using the tutorial from the Game Maker Toolkit."
-        },
-        "deli": {
-            "name": "Delivery Driver",
-            "description": "Car game, with the objective of making deliveries in a city. It features collision and physics systems. It was created with the goal of learning Unity and C#."
-        }
-    },
-    "contact": {
-        "description": "Let's work together!"
+    "deli": {
+      "name": "Delivery Driver",
+      "description": "Car game, with the objective of making deliveries in a city. It features collision and physics systems. It was created with the goal of learning Unity and C#."
     }
+  },
+  "contact": {
+    "description": "Let's work together!"
+  },
+  "work": {
+    "compassjunior": {
+      "name": "Compass Uol (Junior)",
+      "start": "May 2024",
+      "end": "Jan 2025",
+      "description": "Contributed to the development and maintenance of systems focused on digital connectivity management. Responsible for implementing new features in microservices, creating user reports, adapting mobile interfaces, and performing production releases. My work helped improve application stability and optimize the delivery flow of new features."
+    },
+    "compassintern": {
+      "name": "Compass Uol (Intern)",
+      "start": "May 2023",
+      "end": "Oct 2023",
+      "description": "Worked in an agile environment using Scrum, participating in the development and maintenance of REST APIs using Node.js, TypeScript, Express, and MongoDB. Collaborated on implementing authentication, security, and API documentation with Swagger, as well as performing unit and integration testing. Explored AWS services, strengthening skills in cloud and software architecture."
+    }
+  }
 }

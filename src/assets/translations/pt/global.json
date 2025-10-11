@@ -1,49 +1,64 @@
 {
-    "navbar": {
-        "home": "Início",
-        "skills": "Habilidades",
-        "about": "Sobre",
-        "projects": "Projetos"
+  "navbar": {
+    "home": "Início",
+    "skills": "Habilidades",
+    "about": "Sobre",
+    "projects": "Projetos"
+  },
+  "hero": {
+    "welcome": "Boas-vindas! Sou",
+    "intro": "Sou um"
+  },
+  "titles": {
+    "skills": "Habilidades Técnicas",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "work": "Experiência Profissional"
+  },
+  "skills": {
+    "js": "JavaScript - pt",
+    "cs": "C# - pt",
+    "cpp": "C++ - pt",
+    "py": "Python - pt",
+    "unity": "Unity - pt",
+    "react": "React - pt"
+  },
+  "about": {
+    "text": "Olá, sou Felipe Marques! Sou especializado em desenvolvimento full-stack e criação de jogos. Acredito que um bom desenvolvedor é aquele que possui a habilidade de mudar quando necessário, trabalhar em equipe e se empenhar em fazer aquilo que ama. Tenho formação em técnico em informática e graduação em sistemas de informação pelo Instituto Federal do Ceará."
+  },
+  "projects": {
+    "vet": {
+      "name": "API Clínica veterinária",
+      "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."
     },
-    "hero": {
-        "welcome": "Boas-vindas! Sou",
-        "intro": "Sou um"
+    "ward": {
+      "name": "Ward.GG",
+      "description": "Aplicação frontend que monitora a performance de jogadores de League of Legends. Utiliza a API oficial do jogo para coletar dados e exibir estatísticas, como partidas jogadas, taxa de vitória, personagens mais jogados, dentre outros."
     },
-    "titles": {
-        "skills": "Habilidades Técnicas",
-        "about": "Sobre mim",
-        "projects": "Projetos"
+    "flap": {
+      "name": "Flappy Bird Clone",
+      "description": "Jogo clone de Flappy Bird, feito com objetivo de aprendizado do Unity e C#. Possui um sistema de pontuação e um sistema de geração de obstáculos aleatórios. Foi realizado usando tutorial do Game Maker Toolkit."
     },
-    "skills": {
-        "js": "JavaScript - pt",
-        "cs": "C# - pt",
-        "cpp": "C++ - pt",
-        "py": "Python - pt",
-        "unity": "Unity - pt",
-        "react": "React - pt"
-    },
-    "about": {
-        "text": "Olá, sou Felipe Marques! Sou especializado em desenvolvimento full-stack e criação de jogos. Acredito que um bom desenvolvedor é aquele que possui a habilidade de mudar quando necessário, trabalhar em equipe e se empenhar em fazer aquilo que ama. Tenho formação em técnico em informática e graduação em sistemas de informação pelo Instituto Federal do Ceará."
-    },
-    "projects": {
-        "vet": {
-            "name": "API Clínica veterinária",
-            "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."
-        },
-        "ward": {
-            "name": "Ward.GG",
-            "description": "Aplicação frontend que monitora a performance de jogadores de League of Legends. Utiliza a API oficial do jogo para coletar dados e exibir estatísticas, como partidas jogadas, taxa de vitória, personagens mais jogados, dentre outros."
-        },
-        "flap": {
-            "name": "Flappy Bird Clone",
-            "description": "Jogo clone de Flappy Bird, feito com objetivo de aprendizado do Unity e C#. Possui um sistema de pontuação e um sistema de geração de obstáculos aleatórios. Foi realizado usando tutorial do Game Maker Toolkit."
-        },
-        "deli": {
-            "name": "Delivery Driver",
-            "description": "Jogo de carro, com o objetivo de fazer entregas em um cidade. Possui sistemas de colisão e física. Foi feito com objetivo de aprendizado do Unity e C#."
-        }
-    },
-    "contact": {
-        "description": "Vamos trabalhar juntos!"
+    "deli": {
+      "name": "Delivery Driver",
+      "description": "Jogo de carro, com o objetivo de fazer entregas em um cidade. Possui sistemas de colisão e física. Foi feito com objetivo de aprendizado do Unity e C#."
     }
+  },
+  "contact": {
+    "description": "Vamos trabalhar juntos!"
+  },
+  "work": {
+    "compassjunior": {
+      "name": "Compass Uol (Júnior)",
+      "start": "Maio 2024",
+      "end": "Jan 2025",
+      "description": "Atuei contribuindo para o desenvolvimento e manutenção de sistemas voltados à gestão de conectividade digital. Fui responsável pela implementação de novas funcionalidades em microserviços, criação de relatórios de usuários, adaptação de interfaces e realização de releases em ambiente produtivo. Minha atuação contribuiu para melhorar a estabilidade das aplicações e otimizar o fluxo de entrega de novas funcionalidades."
+    },
+    "compassintern": {
+      "name": "Compass Uol (Estágio)",
+      "start": "Maio 2023",
+      "end": "Out 2023",
+      "description": "Atuei em um ambiente ágil com Scrum, participando do desenvolvimento e manutenção de APIs REST em Node.js, TypeScript, Express e MongoDB. Colaborei na implementação de autenticação, segurança e na documentação com Swagger, além de realizar testes unitários e de integração. Explorei serviços AWS, fortalecendo conhecimentos em cloud e arquitetura de software."
+    }
+  }
 }
