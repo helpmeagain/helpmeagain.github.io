@@ -43,13 +43,13 @@ function SkillCard({ title }: Props) {
             key={cat}
             className="rounded-2xl border border-violet-400/20 bg-violet-700/10 backdrop-blur-xl p-4 shadow-lg shadow-violet-900/10 hover:shadow-violet-900/20 transition"
           >
-            <div className="flex items-center justify-between">
-              <h3 className="text-violet-100 jost-semi-bold text-lg">
+            <div className="flex items-center justify-center">
+              <h3 className="text-violet-100 jost-semi-bold text-xl ">
                 {labels[cat]}
               </h3>
             </div>
 
-            <ul className="mt-3 flex flex-wrap gap-2">
+            <ul className="mt-3 flex flex-wrap gap-2 justify-center">
               {(grouped[cat] ?? []).map((skill) => (
                 <SkillTag
                   key={skill.id}

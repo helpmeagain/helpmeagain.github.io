@@ -235,7 +235,9 @@ import {
   SiRedis,
   SiDocker,
   SiAmazonaws,
+  SiSqlite,
 } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
 // export type SkillCategory = "web" | "mobile" | "games" | "misc";
 export type SkillCategory = "web" | "misc";
@@ -398,6 +400,20 @@ const SkillsData = (): SkillItem[] => {
       title: "PostgreSQL",
       icon: <BiLogoPostgresql className={ico} />,
       text: t("skills.postgres"),
+      category: "misc",
+    },
+    {
+      id: nanoid(),
+      title: "MySql",
+      icon: <GrMysql className="h-7 w-7 text-violet-200" />,
+      text: t("skills.sql"),
+      category: "misc",
+    },
+    {
+      id: nanoid(),
+      title: "Sqlite",
+      icon: <SiSqlite className="h-7 w-7 text-violet-200" />,
+      text: t("skills.sqlite"),
       category: "misc",
     },
     {

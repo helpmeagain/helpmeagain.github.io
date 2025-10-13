@@ -307,32 +307,29 @@ const CarouselControlsBottom: React.FC<
       )}
       {...props}
     >
-      <div className="flex items-center justify-between gap-3">
+      <div className="flex items-center justify-between gap-3 mr-1">
         <Button
           type="button"
           variant="outline"
-          size="sm"
-          className="flex-1 rounded-full border-2 border-violet-600/70 bg-zinc-700/20 jost-regular text-sm"
+          size="icon"
+          className="flex h-12 w-12 rounded-full border border-violet-600/70 bg-zinc-700/20"
           onClick={scrollPrev}
           disabled={!canScrollPrev}
         >
-          <GrFormPrevious className="mr-2 h-4 w-4" />
-          Anterior
+          <GrFormPrevious />
         </Button>
+        <CarouselDots />
         <Button
           type="button"
           variant="outline"
-          size="sm"
-          className="flex-1 rounded-full border-2 border-violet-600/70 bg-zinc-700/20 jost-regular text-sm"
+          size="icon"
+          className="flex h-12 w-12 rounded-full border border-violet-600/70 bg-zinc-700/20"
           onClick={scrollNext}
           disabled={!canScrollNext}
         >
-          Próximo
-          <GrFormNext className="ml-2 h-4 w-4" />
+          <GrFormNext />
         </Button>
       </div>
-
-      <CarouselDots className="mt-2" />
     </div>
   );
 };
