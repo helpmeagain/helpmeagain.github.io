@@ -23,6 +23,12 @@ const LinksData = () => {
     {
       id: nanoid(),
       icon: <IoPerson className="h-6 w-6" />,
+      href: "#work",
+      text: t("navbar.work"),
+    },
+    {
+      id: nanoid(),
+      icon: <IoPerson className="h-6 w-6" />,
       href: "#about",
       text: t("navbar.about"),
     },

@@ -3,7 +3,8 @@
     "home": "Home",
     "skills": "skills",
     "projects": "Projects",
-    "about": "About"
+    "about": "About",
+    "work": "Work Experience"
   },
   "hero": {
     "welcome": "Welcome! I'm",
@@ -21,10 +22,16 @@
     "cpp": "C++ - en",
     "py": "Python - en",
     "unity": "Unity - en",
-    "react": "React - en"
+    "react": "React - en",
+    "categories": {
+      "web": "Web Development",
+      "mobile": "Mobile Development",
+      "games": "Game Development",
+      "misc": "Miscellaneous"
+    }
   },
   "about": {
-    "text": "Hello, I'm Felipe Marques! I specialize in full-stack development and game development. I believe that a good developer is one who has the ability to change when necessary, work as a team and commit to doing what they love. I have a degree in IT technician and a bachelor's degree in information systems from the Federal Institute of Ceará."
+    "text": "I'm Felipe Marques, a full stack developer with experience in creating web, mobile, and game applications. I hold a technical degree in Computer Science and a bachelor's degree in Information Systems from the Federal Institute of Ceará. I strive to develop scalable, well-structured solutions focused on user experience. I believe a good developer combines technical curiosity, collaboration, and constant adaptability, values I aim to apply in every project I work on."
   },
   "projects": {
     "blackwell": {

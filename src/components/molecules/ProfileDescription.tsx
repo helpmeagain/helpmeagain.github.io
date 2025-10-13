@@ -5,13 +5,17 @@ import SkillCard from "./SkillCard";
 function ProfileDescription() {
   const { t } = useTranslation();
   return (
-    <article className="flex flex-col items-center text-center">
+    <article className="w-11/12 max-w-5xl mx-auto select-none" id="about">
       <SectionTitle text={t("titles.about")} />
-      <p className="text-violet-100 w-11/12 mt-4 atkinson-hyperlegible-regular text-justify">
-        {t("about.text")}
-      </p>
-      <div className="flex w-auto justify-center">
-        <SkillCard />
+
+      <div className="mt-6 flex md:flex-row flex-col items-center justify-center gap-6 w-full">
+        <p className="w-full md:w-9/12 text-violet-100 atkinson-hyperlegible-regular text-justify">
+          {t("about.text")}
+        </p>
+
+        <div className="w-full md:w-9/12 flex justify-center md:justify-end mt-2 md:mt-0">
+          <SkillCard />
+        </div>
       </div>
     </article>
   );

@@ -3,7 +3,8 @@
     "home": "Início",
     "skills": "Habilidades",
     "about": "Sobre",
-    "projects": "Projetos"
+    "projects": "Projetos",
+    "work": "Experiência Profissional"
   },
   "hero": {
     "welcome": "Boas-vindas! Sou",
@@ -21,10 +22,16 @@
     "cpp": "C++ - pt",
     "py": "Python - pt",
     "unity": "Unity - pt",
-    "react": "React - pt"
+    "react": "React - pt",
+    "categories": {
+      "web": "Desenvolvimento Web",
+      "mobile": "Desenvolvimento Mobile",
+      "games": "Desenvolvimento Game",
+      "misc": "Miscelânea"
+    }
   },
   "about": {
-    "text": "Olá, sou Felipe Marques! Sou especializado em desenvolvimento full-stack e criação de jogos. Acredito que um bom desenvolvedor é aquele que possui a habilidade de mudar quando necessário, trabalhar em equipe e se empenhar em fazer aquilo que ama. Tenho formação em técnico em informática e graduação em sistemas de informação pelo Instituto Federal do Ceará."
+    "text": "Sou Felipe Marques, desenvolvedor full stack com experiência na criação de aplicações web, mobile e jogos. Tenho formação técnica em Informática e graduação em Sistemas de Informação pelo Instituto Federal do Ceará. Busco desenvolver soluções escaláveis, bem estruturadas e com foco em experiência do usuário. Acredito que um bom desenvolvedor combina curiosidade técnica, colaboração e adaptação constante, valores que procuro aplicar em cada projeto em que me envolvo."
   },
   "projects": {
     "blackwell": {
