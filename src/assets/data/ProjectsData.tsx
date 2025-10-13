@@ -16,7 +16,7 @@ const ProjectsData = () => {
   const projects = [
     {
       id: nanoid(),
-      img: "./src/assets/images/blackwell.png",
+      img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/blackwell.png",
       // url: "https://react-projects.netlify.app/",
       github: "https://github.com/helpmeagain/blackwell",
       title: t("projects.blackwell.name"),
@@ -31,7 +31,7 @@ const ProjectsData = () => {
     },
     {
       id: nanoid(),
-      img: "./src/assets/images/kiwi.png",
+      img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/kiwi.png",
       // url: 'https://react-projects.netlify.app/',
       github: "https://github.com/helpmeagain/project-kiwi",
       title: t("projects.kiwi.name"),
