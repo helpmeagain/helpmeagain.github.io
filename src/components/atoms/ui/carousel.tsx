@@ -4,7 +4,7 @@ import useEmblaCarousel, {
 } from "embla-carousel-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/atoms/ui/button";
-import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
+import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
@@ -159,7 +159,7 @@ const CarouselContent = React.forwardRef<
         ref={ref}
         className={cn(
           "flex",
-          orientation === "horizontal" ? "-ml-4" : "-mt-4 flex-col",
+          orientation === "horizontal" ? "-ml-4 mr-1" : "-mt-4 flex-col",
           className
         )}
         {...props}
@@ -203,7 +203,7 @@ const CarouselPrevious = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
-        "hidden md:flex absolute h-8 w-8 rounded-full border-2 border-violet-600/90 bg-zinc-600/20",
+        "hidden md:flex absolute h-8 w-8 rounded-full border border-violet-600/90 bg-zinc-600/20 hover:bg-zinc-900/40",
         orientation === "horizontal"
           ? "-left-10 top-1/2 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -213,7 +213,7 @@ const CarouselPrevious = React.forwardRef<
       onClick={scrollPrev}
       {...props}
     >
-      <ArrowLeftIcon className="h-4 w-4" />
+      <GrFormPrevious className="h-4 w-4" />
       <span className="sr-only">Previous slide</span>
     </Button>
   );
@@ -232,7 +232,7 @@ const CarouselNext = React.forwardRef<
       variant={variant}
       size={size}
       className={cn(
-        "hidden md:flex absolute h-8 w-8 rounded-full border-2 border-violet-600/90 bg-zinc-600/20",
+        "hidden md:flex absolute h-8 w-8 rounded-full border border-violet-600/90 bg-zinc-600/20 hover:bg-zinc-900/40",
         orientation === "horizontal"
           ? "-right-10 top-1/2 -translate-y-1/2"
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -242,7 +242,7 @@ const CarouselNext = React.forwardRef<
       onClick={scrollNext}
       {...props}
     >
-      <ArrowRightIcon className="h-4 w-4" />
+      <GrFormNext className="h-4 w-4" />
       <span className="sr-only">Next slide</span>
     </Button>
   );
@@ -312,23 +312,23 @@ const CarouselControlsBottom: React.FC<
           type="button"
           variant="outline"
           size="sm"
-          className="flex-1 rounded-full border-2 border-violet-600/70 bg-zinc-600/20 jost-regular text-sm"
+          className="flex-1 rounded-full border-2 border-violet-600/70 bg-zinc-700/20 jost-regular text-sm"
           onClick={scrollPrev}
           disabled={!canScrollPrev}
         >
-          <ArrowLeftIcon className="mr-2 h-4 w-4" />
+          <GrFormPrevious className="mr-2 h-4 w-4" />
           Anterior
         </Button>
         <Button
           type="button"
           variant="outline"
           size="sm"
-          className="flex-1 rounded-full border-2 border-violet-600/70 bg-zinc-600/20 jost-regular text-sm"
+          className="flex-1 rounded-full border-2 border-violet-600/70 bg-zinc-700/20 jost-regular text-sm"
           onClick={scrollNext}
           disabled={!canScrollNext}
         >
           Próximo
-          <ArrowRightIcon className="ml-2 h-4 w-4" />
+          <GrFormNext className="ml-2 h-4 w-4" />
         </Button>
       </div>
 

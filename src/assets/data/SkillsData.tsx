@@ -80,13 +80,13 @@ const SkillsData = () => {
     {
       id: nanoid(),
       title: "NextJS",
-      icon: <SiNextdotjs className="h-8 w-8 text-violet-200" />,
+      icon: <SiNextdotjs className="h-7 w-7 text-violet-200" />,
       text: t("skills.next"),
     },
     {
       id: nanoid(),
       title: "Angular",
-      icon: <SiAngular className="h-8 w-8 text-violet-200" />,
+      icon: <SiAngular className="h7 w-7 text-violet-200" />,
       text: t("skills.angular"),
     },
     {
@@ -140,7 +140,7 @@ const SkillsData = () => {
     {
       id: nanoid(),
       title: "Godot",
-      icon: <SiGodotengine className="h-8 w-8 text-violet-200" />,
+      icon: <SiGodotengine className="h-7 w-7 text-violet-200" />,
       text: t("skills.godot"),
     },
     {

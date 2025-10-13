@@ -20,16 +20,16 @@ const ProjectsCard = ({
   text,
 }: ProjectCardProps) => {
   return (
-    <article className="bg-violet-950/20 border-violet-400/5 border rounded-2xl duration-300 w-full h-full">
+    <article className="bg-violet-950/20 border-violet-400/20 border rounded-2xl duration-300 w-full h-full">
       <ProjectImage img={img} title={title} />
-      <div className="flex flex-col py-3 p-5 text-violet-100">
+      <div className="flex flex-col py-3 px-5 text-violet-100">
         <div className="flex items-center justify-between w-full">
           <h2 className="text-xl tracking-wide font-medium jost-semi-bold">
             {title}
           </h2>
           <ProjectTechnologies icons={icons} />
         </div>
-        <p className="mt-4 leading-7 text-justify atkinson-hyperlegible-regular overflow-hidden max-sm:h-64 max-lg:h-[255px] h-48">
+        <p className="mt-1 leading-7 text-justify atkinson-hyperlegible-regular overflow-hidden h-64">
           {text}
         </p>
         <ProjectLinks gitHubLink={github} deployUrl={url} />

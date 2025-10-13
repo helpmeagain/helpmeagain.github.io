@@ -36,7 +36,7 @@
       "description": "Multiplayer educational game for English learning, designed to make the process more collaborative and interactive. It examines the impact of synchronous multiplayer gameplay versus single-player mode on students’ language acquisition and motivation."
     },
     "vet": {
-      "name": "Veterinary Clinic API",
+      "name": "Veterinary API",
       "description": "CRUD interface that simulates a veterinary clinic system. It allows managing employees and pets, featuring an authentication system with encryption. It employs modern technologies, enabling application security through software testing."
     },
     "ward": {
@@ -68,5 +68,9 @@
       "end": "Oct 2023",
       "description": "Worked in an agile environment using Scrum, participating in the development and maintenance of REST APIs using Node.js, TypeScript, Express, and MongoDB. Collaborated on implementing authentication, security, and API documentation with Swagger, as well as performing unit and integration testing. Explored AWS services, strengthening skills in cloud and software architecture."
     }
+  },
+  "projectsLinks": {
+    "repo": "Repository",
+    "site": "Online demo"
   }
 }

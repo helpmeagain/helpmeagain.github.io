@@ -36,7 +36,7 @@
       "description": "Jogo educacional multiplayer para o ensino de inglês, projetado para tornar o aprendizado mais colaborativo e interativo. O projeto investiga o impacto do jogo síncrono multiplayer em comparação ao modo individual na aquisição de idioma e na motivação dos alunos."
     },
     "vet": {
-      "name": "API Clínica veterinária",
+      "name": "API Veterinária",
       "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."
     },
     "ward": {
@@ -68,5 +68,9 @@
       "end": "Out 2023",
       "description": "Atuei em um ambiente ágil com Scrum, participando do desenvolvimento e manutenção de APIs REST em Node.js, TypeScript, Express e MongoDB. Colaborei na implementação de autenticação, segurança e na documentação com Swagger, além de realizar testes unitários e de integração. Explorei serviços AWS, fortalecendo conhecimentos em cloud e arquitetura de software."
     }
+  },
+  "projectsLinks": {
+    "repo": "Repositório",
+    "site": "Demo online"
   }
 }

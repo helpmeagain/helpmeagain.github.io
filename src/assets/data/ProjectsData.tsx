@@ -17,11 +17,11 @@ const ProjectsData = () => {
     {
       id: nanoid(),
       img: "./src/assets/images/blackwell.png",
-      // url: 'https://react-projects.netlify.app/',
+      url: "https://react-projects.netlify.app/",
       github: "https://github.com/helpmeagain/blackwell",
       title: t("projects.blackwell.name"),
       icons: [
-        <BiLogoJavascript className="h-8 w-8 rounded-full" />,
+        <BiLogoTypescript className="h-8 w-8 rounded-full" />,
         <SiNestjs className="h-7 w-7 " />,
         // <BiLogoReact className="h-8 w-8" />,
         <BiLogoPostgresql className="h-8 w-8" />,
@@ -35,7 +35,7 @@ const ProjectsData = () => {
       // url: 'https://react-projects.netlify.app/',
       github: "https://github.com/helpmeagain/project-kiwi",
       title: t("projects.kiwi.name"),
-      icons: [<SiGodotengine className="h-8 w-8" />],
+      icons: [<SiGodotengine className="h-7 w-7" />],
       text: t("projects.kiwi.description"),
     },
     {
