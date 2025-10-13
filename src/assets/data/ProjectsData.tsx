@@ -17,7 +17,7 @@ const ProjectsData = () => {
     {
       id: nanoid(),
       img: "./src/assets/images/blackwell.png",
-      url: "https://react-projects.netlify.app/",
+      // url: "https://react-projects.netlify.app/",
       github: "https://github.com/helpmeagain/blackwell",
       title: t("projects.blackwell.name"),
       icons: [

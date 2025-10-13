@@ -27,7 +27,7 @@ const WorkData = () => {
       end: t("work.compassjunior.end"),
       description: t("work.compassjunior.description"),
       icons: [
-        { icon: <BiLogoJavascript className="h-8 w-8" /> },
+        { icon: <BiLogoJavascript className="h-8 w-8 rounded-full" /> },
         { icon: <BiLogoTypescript className="h-8 w-8" /> },
         { icon: <SiNestjs className="h-7 w-7" /> },
         { icon: <SiExpress className="h-8 w-8" /> },

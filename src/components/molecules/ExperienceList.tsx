@@ -1,14 +1,10 @@
 import React from "react";
 import SkillTag from "../atoms/SkillTag";
 import WorkData from "@/assets/data/WorkData";
-import SectionTitle from "../atoms/SectionTitle";
-import { useTranslation } from "react-i18next";
 
 const ExperienceList: React.FC = () => {
-  const { t } = useTranslation();
   return (
-    <div className="mx-auto md:w-full w-11/12">
-      <SectionTitle text={t("titles.work")} />
+    <div className="flex mx-auto">
       <ol>
         {WorkData().map((exp, i) => (
           <li
@@ -29,7 +25,7 @@ const ExperienceList: React.FC = () => {
             />
             <div className="rounded-xl border border-violet-600/30 bg-violet-700/15 dark:bg-zinc-700/30 p-4">
               <div className="mb-2 flex items-center gap-3">
-                <span className="font-bold text-lg text-violet-100">
+                <span className="font-bold text-md md:text-lg text-violet-100 text-start">
                   {exp.name}
                 </span>
                 <span className="italic text-sm opacity-80">
