@@ -9,7 +9,7 @@ function ProjectImage({ img, title }: Props) {
       <img
         src={img}
         alt={title}
-        className="w-full object-cover rounded-t-2xl h-60"
+        className="w-full object-cover rounded-t-2xl h-48"
       />
     </div>
   );

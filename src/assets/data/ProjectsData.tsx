@@ -32,7 +32,7 @@ const ProjectsData = () => {
     {
       id: nanoid(),
       img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/kiwi.png",
-      // url: 'https://react-projects.netlify.app/',
+      url: "https://helpmeagain.itch.io/project-kiwi",
       github: "https://github.com/helpmeagain/project-kiwi",
       title: t("projects.kiwi.name"),
       icons: [<SiGodotengine className="h-7 w-7" />],
