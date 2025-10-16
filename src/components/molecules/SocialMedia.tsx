@@ -1,6 +1,7 @@
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import { FaEnvelopeSquare } from "react-icons/fa";
-import { FaSquarePollHorizontal } from "react-icons/fa6";
+import { RiLinkedinFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
+import { RiMailFill } from "react-icons/ri";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import ClickableIcon from "../atoms/ClickableIcon";
 
 function SocialMedia() {
@@ -8,19 +9,19 @@ function SocialMedia() {
     <div className="flex gap-x-3 items-center">
       <ClickableIcon
         link="https://www.github.com/helpmeagain"
-        icon={FaGithubSquare}
+        icon={FaGithub}
       />
       <ClickableIcon
         link="https://www.linkedin.com/in/felipecomarques"
-        icon={FaLinkedin}
+        icon={RiLinkedinFill}
       />
       <ClickableIcon
         link="mailto:felipe.comarques12008@gmail.com"
-        icon={FaEnvelopeSquare}
+        icon={RiMailFill}
       />
       <ClickableIcon
         link="https://helpmeagain.github.io/curriculum-vitae/"
-        icon={FaSquarePollHorizontal}
+        icon={BsFillPersonLinesFill}
       />
     </div>
   );

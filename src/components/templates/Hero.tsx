@@ -3,7 +3,7 @@ import HeroCard from "../organisms/HeroCard";
 
 function Hero() {
   return (
-    <div className="relative h-screen">
+    <section className="relative h-screen" id="home">
       <FlickeringGrid
         className="absolute inset-0"
         squareSize={8}
@@ -14,11 +14,11 @@ function Hero() {
         fadeTopBottom={30}
       />
       <div className="relative z-10">
-        <article className="h-screen flex flex-col justify-center">
+        <article className="h-screen flex flex-col justify-center md:ml-6">
           <HeroCard name="Felipe Marques" />
         </article>
       </div>
-    </div>
+    </section>
   );
 }
 
