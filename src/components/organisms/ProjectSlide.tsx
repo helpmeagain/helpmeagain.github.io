@@ -16,7 +16,7 @@ function ProjectSlide() {
       opts={{
         align: "start",
       }}
-      className="lg:w-10/12 w-full"
+      className="lg:w-10/12 w-full select-none"
     >
       <CarouselContent>
         {ProjectsData().map((project) => (

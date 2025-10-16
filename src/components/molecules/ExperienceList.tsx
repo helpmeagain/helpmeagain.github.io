@@ -4,7 +4,7 @@ import WorkData from "@/assets/data/WorkData";
 
 const ExperienceList: React.FC = () => {
   return (
-    <div className="flex mx-auto mt-6">
+    <div className="flex mx-auto mt-6 md:w-8/12 w-11/12">
       <ol>
         {WorkData().map((exp, i) => (
           <li

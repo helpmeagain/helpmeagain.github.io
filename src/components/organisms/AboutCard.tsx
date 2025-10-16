@@ -2,7 +2,7 @@ import ProfileDescription from "../molecules/ProfileDescription";
 
 function AboutCard() {
   return (
-    <div className="flex justify-center px-4 pt-12">
+    <div className="flex justify-center px-4">
       <ProfileDescription />
     </div>
   );

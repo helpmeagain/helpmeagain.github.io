@@ -7,7 +7,7 @@ function Projects() {
 
   return (
     <section
-      className="flex flex-col items-center py-20 max-sm:pt-5 px-28 max-md:px-5 gap-y-4 bg-gradient-to-t from-[#080414] via-violet-700/10 to-[#080414] select-none"
+      className="flex flex-col items-center py-20 max-sm:pt-5 px-28 max-md:px-5 gap-y-4 bg-gradient-to-t from-[#080414] via-violet-400/10 to-[#080414]"
       id="projects"
     >
       <SectionTitle text={t("titles.projects")} />

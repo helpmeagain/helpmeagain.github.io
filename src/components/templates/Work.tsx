@@ -6,7 +6,7 @@ function Work() {
   const { t } = useTranslation();
   return (
     <section
-      className="py-20 select-none md:w-8/12 w-11/12 mx-auto text-center"
+      className="py-20  mx-auto text-center bg-gradient-to-t from-[#080414] via-violet-400/10 to-[#080414]"
       id="work"
     >
       <SectionTitle text={t("titles.work")} />

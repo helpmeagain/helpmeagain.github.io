@@ -12,8 +12,10 @@ function LandingPage() {
       <Hero />
       <Projects />
       <Work />
-      <About />
-      <ContactCard />
+      <div className="bg-gradient-to-b from-[#080414] via-violet-900/20 to-violet-800/25">
+        <About />
+        <ContactCard />
+      </div>
     </>
   );
 }
