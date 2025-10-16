@@ -1,15 +1,25 @@
-import HeroCard from "../organisms/HeroCard"
+import { FlickeringGrid } from "../atoms/ui/flickering-grid";
+import HeroCard from "../organisms/HeroCard";
 
 function Hero() {
-    return (
-        <section className="bg-gradient-to-b from-violet-700/5 via-violet-700/15 to-background h-screen select-none" id="home">
-            <div className="flex items-center justify-center md:ml-6">
-                <article className='h-screen flex flex-col justify-center'>
-                    <HeroCard name="Felipe Marques" />
-                </article>
-            </div>
-        </section>
-    )
+  return (
+    <div className="relative h-screen">
+      <FlickeringGrid
+        className="absolute inset-0"
+        squareSize={8}
+        gridGap={7}
+        flickerChance={0.3}
+        color="rgb(124, 58, 237)"
+        maxOpacity={0.28}
+        fadeTopBottom={30}
+      />
+      <div className="relative z-10">
+        <article className="h-screen flex flex-col justify-center">
+          <HeroCard name="Felipe Marques" />
+        </article>
+      </div>
+    </div>
+  );
 }
 
-export default Hero
+export default Hero;

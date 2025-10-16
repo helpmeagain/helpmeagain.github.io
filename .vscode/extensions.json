@@ -1,8 +1,5 @@
 {
     "recommendations": [
-        "formulahendry.auto-rename-tag",
-        "dsznajder.es7-react-js-snippets",
         "bradlc.vscode-tailwindcss",
-        "stivo.tailwind-fold"
     ]
 }
