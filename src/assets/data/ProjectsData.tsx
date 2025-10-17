@@ -7,8 +7,16 @@ import {
   BiLogoTailwindCss,
   BiLogoPostgresql,
 } from "react-icons/bi";
-import { SiExpress, SiGodotengine, SiNestjs, SiRedis } from "react-icons/si";
+import {
+  SiDotnet,
+  SiExpress,
+  SiGodotengine,
+  SiMysql,
+  SiNestjs,
+  SiRedis,
+} from "react-icons/si";
 import { useTranslation } from "react-i18next";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const ProjectsData = () => {
   const { t } = useTranslation();
@@ -18,6 +26,7 @@ const ProjectsData = () => {
       id: nanoid(),
       img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/blackwell.png",
       // url: "https://react-projects.netlify.app/",
+      doc: "https://helpmeagain.github.io/blackwell/",
       github: "https://github.com/helpmeagain/blackwell",
       title: t("projects.blackwell.name"),
       icons: [
@@ -50,6 +59,19 @@ const ProjectsData = () => {
         <BiLogoTailwindCss className="h-8 w-8" />,
       ],
       text: t("projects.ward.description"),
+    },
+    {
+      id: nanoid(),
+      img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/passin.png",
+      github: "https://github.com/helpmeagain/pass-in",
+      doc: "https://helpmeagain.github.io/pass-in/",
+      title: t("projects.pass.name"),
+      icons: [
+        <TbBrandCSharp className="h-8 w-8" />,
+        <SiDotnet className="h-9 w-9" />,
+        <SiMysql className="h-8 w-8" />,
+      ],
+      text: t("projects.pass.description"),
     },
     {
       id: nanoid(),

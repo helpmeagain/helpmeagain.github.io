@@ -5,7 +5,14 @@ function TypewriterAnimation() {
     <h1 className="text-3xl max-sm:text-xl text-violet-200 pb-4 fira-mono-regular select-none">
       &lt;
       <TypeAnimation
-        sequence={["fullstack developer", 1500, "game developer", 1500]}
+        sequence={[
+          "fullstack developer",
+          1500,
+          "mobile developer",
+          1500,
+          "game developer",
+          1500,
+        ]}
         speed={50}
         deletionSpeed={60}
         cursor={false}

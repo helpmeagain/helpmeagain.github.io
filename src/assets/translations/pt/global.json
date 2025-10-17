@@ -46,6 +46,10 @@
       "name": "API Veterinária",
       "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."
     },
+    "pass": {
+      "name": "API PassIn",
+      "description": "API de gerenciamento de eventos desenvolvida para permitir o registro de eventos, o controle de participantes e a realização de check-ins de forma simples e eficiente."
+    },
     "ward": {
       "name": "Ward.GG",
       "description": "Aplicação frontend que monitora a performance de jogadores de League of Legends. Utiliza a API oficial do jogo para coletar dados e exibir estatísticas, como partidas jogadas, taxa de vitória, personagens mais jogados, dentre outros."
@@ -78,6 +82,7 @@
   },
   "projectsLinks": {
     "repo": "GitHub",
-    "site": "Demo"
+    "site": "Demo",
+    "docs": "Docs"
   }
 }

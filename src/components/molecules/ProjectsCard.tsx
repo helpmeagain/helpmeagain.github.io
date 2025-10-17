@@ -4,6 +4,7 @@ import ProjectLinks from "./ProjectLinks";
 
 type ProjectCardProps = {
   url?: string;
+  doc?: string;
   img: string;
   github: string;
   title: string;
@@ -13,6 +14,7 @@ type ProjectCardProps = {
 
 const ProjectsCard = ({
   url,
+  doc,
   img,
   github,
   title,
@@ -32,7 +34,7 @@ const ProjectsCard = ({
         <p className="mt-1 leading-7 text-justify atkinson-hyperlegible-regular overflow-hidden h-64">
           {text}
         </p>
-        <ProjectLinks gitHubLink={github} deployUrl={url} />
+        <ProjectLinks gitHubLink={github} deployUrl={url} docs={doc} />
       </div>
     </article>
   );
