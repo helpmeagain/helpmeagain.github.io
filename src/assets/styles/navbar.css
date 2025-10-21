@@ -1,0 +1,112 @@
+/* navbar.css — Tailwind v4 */
+@import "tailwindcss";
+
+@layer components {
+  /* NAVBAR */
+  .navbar {
+    /* Style */
+    @apply rounded-full select-none p-8 pr-5 shadow-md bg-violet-700/10;
+
+    /* Settings (position, size, etc) */
+    @apply fixed flex justify-between w-[70%] h-12 top-4 left-1/2 -translate-x-1/2 z-50;
+  }
+
+  /* https://stackoverflow.com/questions/60997948/backdrop-filter-not-working-for-nested-elements-in-chrome */
+  .navbar::before {
+    content: "";
+    @apply absolute inset-0 -z-10 rounded-full backdrop-blur-md border border-violet-400/15;
+  }
+
+  /* BUTTONS */
+  .common-button {
+    @apply flex items-center justify-center capitalize duration-500 rounded-xl gap-1
+           text-violet-200 hover:text-violet-400 border border-violet-400/5 hover:bg-violet-500/10 cursor-pointer;
+  }
+
+  .navigation-buttons {
+    @apply px-3 py-2 text-lg leading-7;
+  }
+
+  .small-button {
+    @apply cursor-pointer h-11 w-11 text-2xl leading-8 p-1;
+  }
+
+  .language-options-buttons {
+    @apply w-24 h-10 text-lg leading-6;
+  }
+
+  .hamburger-button {
+    @apply hidden;
+  }
+
+  /* LISTS */
+  .navigation-list {
+    @apply flex flex-row items-center text-center justify-end list-none ml-4 gap-3;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .language-list {
+    @apply bg-violet-700/10 border-violet-400/15 backdrop-blur-xl;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    gap: 0.5rem;
+    height: auto;
+    top: 68px;
+    inset-inline-end: 0.75rem;
+  }
+}
+
+/* ≤ 1290px: mantém sua media query, mas usa @apply para utilitárias */
+@media (max-width: 1290px) {
+  .navbar {
+    @apply h-20 w-[90%];
+  }
+
+  /* BUTTONS */
+  .navigation-buttons {
+    @apply w-full border-0;
+  }
+
+  .small-button {
+    @apply border;
+  }
+
+  .hamburger-button {
+    @apply flex;
+  }
+
+  /* LISTS */
+  .navigation-list {
+    @apply absolute top-0 left-[110%] flex flex-col items-stretch justify-start
+           w-full h-auto rounded-3xl border border-violet-400/30
+           bg-violet-700/10 backdrop-blur-xl
+           pt-24 pb-4 px-2 m-0 -z-10
+           transition-all duration-300 ease-in-out;
+  }
+
+  .navigation-list.active {
+    @apply left-0;
+  }
+
+  .language-list {
+    @apply absolute top-0 left-[110%] flex flex-col items-stretch justify-start
+           w-full h-auto rounded-3xl border border-violet-400/30
+           bg-violet-700/10 backdrop-blur-xl
+           pt-24 pb-4 px-2 m-0 -z-10
+           transition-all duration-300 ease-in-out;
+  }
+
+  .language-list.active {
+    @apply left-0;
+  }
+}

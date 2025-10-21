@@ -34,7 +34,7 @@ const ProjectsData = () => {
         <SiNestjs className="h-7 w-7 " />,
         // <BiLogoReact className="h-8 w-8" />,
         <BiLogoPostgresql className="h-8 w-8" />,
-        <SiRedis className="h-8 w-8 " />,
+        <SiRedis className="h-6 w-6 mt-1" />,
       ],
       text: t("projects.blackwell.description"),
     },
