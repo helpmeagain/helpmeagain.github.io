@@ -1,8 +1,9 @@
-function ProjectTechnologies({ icons }: { icons: React.ReactNode }) {
+function ProjectTechnologies({ icons }: { icons: React.ReactNode[] }) {
   return (
     <div
-      className="text-violet-100 flex w-auto gap-x-2
-                bg-violet-950/50 rounded-full p-2 px-3 border-2 border-violet-400/20"
+      className="flex items-center justify-center gap-x-3
+                 bg-violet-950/40 rounded-full px-4 py-2 border-2 border-violet-400/40
+                 text-violet-100 w-fit mx-auto"
     >
       {icons}
     </div>

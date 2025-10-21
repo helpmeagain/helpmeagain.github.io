@@ -8,7 +8,7 @@ import Work from "../templates/Work";
 function LandingPage() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Projects />
       <Work />
