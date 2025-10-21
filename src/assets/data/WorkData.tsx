@@ -10,10 +10,10 @@ import {
   SiAngular,
   SiIonic,
   SiRedis,
-  SiMicrosoftazure,
   SiDocker,
-  SiAmazonaws,
 } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
+import { FaAws } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const WorkData = () => {
@@ -31,11 +31,11 @@ const WorkData = () => {
         { icon: <BiLogoTypescript className="h-8 w-8" /> },
         { icon: <SiNestjs className="h-7 w-7" /> },
         { icon: <SiExpress className="h-8 w-8" /> },
-        { icon: <SiAngular className="h-7 w-7" /> },
-        { icon: <SiIonic className="h-7 w-7" /> },
+        { icon: <SiAngular className="h-6 w-6" /> },
+        { icon: <SiIonic className="h-6 w-6" /> },
         { icon: <BiLogoMongodb className="h-8 w-8" /> },
-        { icon: <SiRedis className="h-8 w-8" /> },
-        { icon: <SiMicrosoftazure className="h-7 w-7" /> },
+        { icon: <SiRedis className="h-6 w-6" /> },
+        { icon: <VscAzure className="h-7 w-7" /> },
       ],
     },
     {
@@ -49,7 +49,7 @@ const WorkData = () => {
         { icon: <SiExpress className="h-8 w-8" /> },
         { icon: <BiLogoMongodb className="h-8 w-8" /> },
         { icon: <SiDocker className="h-8 w-8" /> },
-        { icon: <SiAmazonaws className="h-8 w-8" /> },
+        { icon: <FaAws className="h-8 w-8" /> },
       ],
     },
   ];

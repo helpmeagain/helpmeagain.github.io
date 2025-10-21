@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@radix-ui/react-slot':
-        specifier: ^1.0.2
+        specifier: ^1.2.3
         version: 1.2.3(@types/react@19.2.2)(react@19.2.0)
       '@tailwindcss/vite':
         specifier: ^4.1.15
@@ -39,11 +39,11 @@ importers:
         specifier: ^19.2.0
         version: 19.2.0(react@19.2.0)
       react-i18next:
-        specifier: ^16.0.0
+        specifier: ^16.1.2
         version: 16.1.2(i18next@25.6.0(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.9.3)
       react-icons:
-        specifier: ^4.11.0
-        version: 4.12.0(react@19.2.0)
+        specifier: ^5.5.0
+        version: 5.5.0(react@19.2.0)
       react-type-animation:
         specifier: ^3.2.0
         version: 3.2.0(prop-types@15.8.1)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -61,13 +61,13 @@ importers:
         specifier: ^9.38.0
         version: 9.38.0
       '@types/node':
-        specifier: ^24.7.1
+        specifier: ^24.9.1
         version: 24.9.1
       '@types/react':
         specifier: ^19.2.2
         version: 19.2.2
       '@types/react-dom':
-        specifier: ^19.2.1
+        specifier: ^19.2.2
         version: 19.2.2(@types/react@19.2.2)
       '@vitejs/plugin-react-swc':
         specifier: ^4.1.0
@@ -94,7 +94,7 @@ importers:
         specifier: ^8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       vite:
-        specifier: ^7.1.9
+        specifier: ^7.1.11
         version: 7.1.11(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)
 
 packages:
@@ -1528,8 +1528,8 @@ packages:
       typescript:
         optional: true
 
-  react-icons@4.12.0:
-    resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
+  react-icons@5.5.0:
+    resolution: {integrity: sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==}
     peerDependencies:
       react: '*'
 
@@ -3254,7 +3254,7 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       typescript: 5.9.3
 
-  react-icons@4.12.0(react@19.2.0):
+  react-icons@5.5.0(react@19.2.0):
     dependencies:
       react: 19.2.0
 
