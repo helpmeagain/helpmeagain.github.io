@@ -234,10 +234,10 @@ import {
   SiGodotengine,
   SiRedis,
   SiDocker,
-  SiAmazonaws,
   SiSqlite,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { FaAws } from "react-icons/fa";
 
 // export type SkillCategory = "web" | "mobile" | "games" | "misc";
 export type SkillCategory = "web" | "misc";
@@ -440,7 +440,7 @@ const SkillsData = (): SkillItem[] => {
     {
       id: nanoid(),
       title: "AWS",
-      icon: <SiAmazonaws className={ico} />,
+      icon: <FaAws className={ico} />,
       text: t("skills.aws"),
       category: "misc",
     },
