@@ -20,7 +20,7 @@ function ProjectLinks({ gitHubLink, deployUrl, docs }: Props) {
         className="rounded-full border-violet-600/70 bg-zinc-700/20 hover:bg-zinc-900/40 jost-regular text-md"
         asChild
       >
-        <a href={gitHubLink} target="_blank">
+        <a href={gitHubLink} target="_blank" rel="noreferrer">
           <FaGithub /> {t("projectsLinks.repo")}
         </a>
       </Button>
@@ -31,7 +31,7 @@ function ProjectLinks({ gitHubLink, deployUrl, docs }: Props) {
           className="rounded-full border-violet-600/70 bg-zinc-700/20 hover:bg-zinc-900/40 jost-regular text-md"
           asChild
         >
-          <a href={deployUrl} target="_blank">
+          <a href={deployUrl} target="_blank" rel="noreferrer">
             <TbWorldWww /> {t("projectsLinks.site")}
           </a>
         </Button>
@@ -43,7 +43,7 @@ function ProjectLinks({ gitHubLink, deployUrl, docs }: Props) {
           className="rounded-full border-violet-600/70 bg-zinc-700/20 hover:bg-zinc-900/40 jost-regular text-md"
           asChild
         >
-          <a href={docs} target="_blank">
+          <a href={docs} target="_blank" rel="noreferrer">
             <PiFileDocDuotone /> {t("projectsLinks.docs")}
           </a>
         </Button>
