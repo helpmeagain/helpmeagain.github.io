@@ -16,7 +16,7 @@ function SocialMedia() {
         icon={RiLinkedinFill}
       />
       <ClickableIcon
-        link="mailto:felipe.comarques12008@gmail.com"
+        link="mailto:felipe.marques.desenvolvedor@gmail.com"
         icon={RiMailFill}
       />
       <ClickableIcon
