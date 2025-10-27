@@ -24,7 +24,7 @@ const ProjectsData = () => {
   const projects = [
     {
       id: nanoid(),
-      img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/blackwell.png",
+      img: "https://cdn.jsdelivr.net/gh/helpmeagain/helpmeagain.github.io@main/src/assets/images/blackwell.png",
       // url: "https://react-projects.netlify.app/",
       doc: "https://helpmeagain.github.io/blackwell/",
       github: "https://github.com/helpmeagain/blackwell",
@@ -40,7 +40,7 @@ const ProjectsData = () => {
     },
     {
       id: nanoid(),
-      img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/kiwi.png",
+      img: "https://cdn.jsdelivr.net/gh/helpmeagain/helpmeagain.github.io@main/src/assets/images/kiwi.png",
       url: "https://helpmeagain.itch.io/project-kiwi",
       github: "https://github.com/helpmeagain/project-kiwi",
       title: t("projects.kiwi.name"),
@@ -49,7 +49,7 @@ const ProjectsData = () => {
     },
     {
       id: nanoid(),
-      img: "https://github.com/felipecomarques/ward-gg/raw/main/docs/image.png",
+      img: "https://cdn.jsdelivr.net/gh/helpmeagain/ward-gg@main/docs/image.png",
       // url: 'https://react-projects.netlify.app/',
       github: "https://github.com/felipecomarques/ward-gg",
       title: t("projects.ward.name"),
@@ -62,7 +62,7 @@ const ProjectsData = () => {
     },
     {
       id: nanoid(),
-      img: "https://raw.githubusercontent.com/helpmeagain/helpmeagain.github.io/refs/heads/main/src/assets/images/passin.png",
+      img: "https://cdn.jsdelivr.net/gh/helpmeagain/helpmeagain.github.io@main/src/assets/images/passin.png",
       github: "https://github.com/helpmeagain/pass-in",
       doc: "https://helpmeagain.github.io/pass-in/",
       title: t("projects.pass.name"),
@@ -75,7 +75,7 @@ const ProjectsData = () => {
     },
     {
       id: nanoid(),
-      img: "https://github.com/felipecomarques/veterinary-clinic-api/raw/main/docs/resource/image/swagger.png",
+      img: "https://cdn.jsdelivr.net/gh/felipecomarques/veterinary-clinic-api@main/docs/resource/image/swagger.png",
       github: "https://github.com/felipecomarques/veterinary-clinic-api",
       title: t("projects.vet.name"),
       icons: [
